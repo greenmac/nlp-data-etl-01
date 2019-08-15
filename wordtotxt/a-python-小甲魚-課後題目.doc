@@ -1,0 +1,627 @@
+{\rtf1\adeflang1025\ansi\ansicpg936\uc2\adeff0\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}\'cb\'ce\'cc\'e5{\*\falt SimSun};}
+{\f36\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@\'cb\'ce\'cc\'e5;}{\f38\froman\fcharset238\fprq2 Times New Roman CE;}{\f39\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f41\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f42\froman\fcharset162\fprq2 Times New Roman Tur;}{\f43\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f44\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f45\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f46\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f170\fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}{\f400\fnil\fcharset0\fprq2 @\'cb\'ce\'cc\'e5 Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\qj \li0\ri0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs21\lang1033\langfe2052\kerning2\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 \snext0 Normal;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{
+\s15\qc \li0\ri0\nowidctlpar\brdrb\brdrs\brdrw15\brsp20 \tqc\tx4153\tqr\tx8306\wrapdefault\aspalpha\aspnum\faauto\nosnaplinegrid\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs18\alang1025 \ltrch\fcs0 
+\fs18\lang1033\langfe2052\kerning2\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 \sbasedon0 \snext15 \styrsid15098623 header;}{\s16\ql \li0\ri0\nowidctlpar
+\tqc\tx4153\tqr\tx8306\wrapdefault\aspalpha\aspnum\faauto\nosnaplinegrid\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs18\alang1025 \ltrch\fcs0 \fs18\lang1033\langfe2052\kerning2\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 
+\sbasedon0 \snext16 \styrsid15098623 footer;}{\*\cs17 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf2 \sbasedon10 \styrsid15098623 Hyperlink;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\pgptbl {\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}}
+{\*\rsidtbl \rsid1069012\rsid1462542\rsid2231290\rsid2847010\rsid2909350\rsid3869496\rsid4001084\rsid4419642\rsid4477090\rsid6493368\rsid7939098\rsid9449096\rsid10236727\rsid10246904\rsid10897542\rsid11282186\rsid13312263\rsid14707564\rsid15098623
+\rsid15611782\rsid15817367\rsid15866361\rsid16195404\rsid16607898}{\*\generator Microsoft Word 11.0.0000;}{\info{\title 鱼c小甲鱼零基础学python全套课后题}{\subject 鱼c小甲鱼零基础学python全套课后题}{\author \'ce\'c4\'bf\'e2\'cf\'c2\'d4\'d8\'cd\'f8}{\keywords \'ce\'c4\'bf\'e2\'cf\'c2\'d4\'d8}
+{\doccomm http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html}{\operator \'ce\'c4\'bf\'e2\'cf\'c2\'d4\'d8\'cd\'f8}{\creatim\yr2013\mo9\dy28\hr22\min9}{\revtim\yr2013\mo9\dy29\hr17\min2}{\version11}{\edmins8}{\nofpages1}{\nofwords54}{\nofchars313}{\*\manager https://www.wenkuxiazai.com/}{\*\company https://www.wenkuxiazai.com/}
+{\*\category \'ce\'c4\'bf\'e2\'cf\'c2\'d4\'d8}{\nofcharsws366}{\vern24613}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 https://schemas.microsoft.com/office/word/2003/wordml}{\xmlns2 urn:schemas-microsoft-com:office:smarttags}}
+\paperw11906\paperh16838\margl1134\margr1134\margt1134\margb1134\gutter0\ltrsect 
+\deftab420\ftnbj\aenddoc\donotembedsysfont1\donotembedlingdata0\grfdocevents0\validatexml1\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors1\formshade\horzdoc\dgmargin\dghspace180\dgvspace156\dghorigin1134\dgvorigin1134\dghshow0
+\dgvshow2\jcompress\lnongrid\viewkind1\viewscale85\splytwnine\ftnlytwnine\htmautsp\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\nobrkwrptbl\snaptogridincell\allowfieldendsel\wrppunct\asianbrkrule\rsidroot3869496\newtblstyruls\nogrowautofit 
+{\*\fchars 
+!),.:\'3b?]\'7d\'a1\'a7\'a1\'a4\'a1\'a6\'a1\'a5\'a8\'44\'a1\'ac\'a1\'af\'a1\'b1\'a1\'ad\'a1\'c3\'a1\'a2\'a1\'a3\'a1\'a8\'a1\'a9\'a1\'b5\'a1\'b7\'a1\'b9\'a1\'bb\'a1\'bf\'a1\'b3\'a1\'bd\'a3\'a1\'a3\'a2\'a3\'a7\'a3\'a9\'a3\'ac\'a3\'ae\'a3\'ba\'a3\'bb\'a3\'bf\'a3\'dd\'a3\'e0\'a3\'fc\'a3\'fd\'a1\'ab\'a1\'e9
+}{\*\lchars ([\'7b\'a1\'a4\'a1\'ae\'a1\'b0\'a1\'b4\'a1\'b6\'a1\'b8\'a1\'ba\'a1\'be\'a1\'b2\'a1\'bc\'a3\'a8\'a3\'ae\'a3\'db\'a3\'fb\'a1\'ea\'a3\'a4}\fet0{\*\wgrffmtfilter 013f}\ilfomacatclnup0{\*\template 
+C:\\Documents and Settings\\Administrator\\\'d7\'c0\'c3\'e6\\doc.dot}{\*\ftnsep \ltrpar \pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs21\lang1033\langfe2052\kerning2\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14707564 \chftnsep 
+\par }}{\*\ftnsepc \ltrpar \pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs21\lang1033\langfe2052\kerning2\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14707564 \chftnsepc 
+\par }}{\*\aftnsep \ltrpar \pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs21\lang1033\langfe2052\kerning2\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14707564 \chftnsep 
+\par }}{\*\aftnsepc \ltrpar \pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs21\lang1033\langfe2052\kerning2\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14707564 \chftnsepc 
+\par }}\ltrpar \sectd \ltrsect\linex0\headery851\footery992\colsx425\endnhere\sectlinegrid312\sectspecifyl\sectrsid6493368\sftnbj {\headerr \ltrpar \pard\plain \ltrpar\s15\qc \li0\ri0\nowidctlpar\brdrb\brdrs\brdrw15\brsp20 
+\tqc\tx4153\tqr\tx8306\wrapdefault\aspalpha\aspnum\faauto\nosnaplinegrid\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs18\alang1025 \ltrch\fcs0 \fs18\lang1033\langfe2052\kerning2\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \b\f13\fs24\cf6\insrsid6493368\charrsid15098623 \loch\af13\hich\af13\dbch\f13 \'ce\'c4\'bf\'e2\'cf\'c2\'d4\'d8}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\f13\fs24\cf6\insrsid6493368\charrsid15098623 \hich\af13\dbch\af13\loch\f13  }{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\f13\fs24\cf6\insrsid6493368\charrsid15098623 \loch\af13\hich\af13\dbch\f13 \'c3\'e2\'b7\'d1\'ce\'c4\'b5\'b5\'cf\'c2\'d4\'d8}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\cf6\loch\af13\insrsid6493368\charrsid15098623 
+
+\par }{\field\flddirty{\*\fldinst {\rtlch\fcs1 \af0\afs32 \ltrch\fcs0 \f13\fs32\cf6\insrsid6493368\charrsid15098623 \hich\af13\dbch\af13\loch\f13  HYPERLINK "https://www.wenkuxiazai.com/" }{\rtlch\fcs1 \af0\afs32 \ltrch\fcs0 
+\fs32\cf6\loch\af13\insrsid10246904\charrsid15098623 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b5000000068007400740070003a002f002f007700770077002e00770065006e006b0075007800690061007a00610069002e0063006f006d002f000000795881f43b1d7f48af2c825dc485276300000000a5ab00000000
+00000000}}}{\fldrslt {\rtlch\fcs1 \af0\afs32 \ltrch\fcs0 \cs17\f13\fs32\ul\cf2\insrsid6493368\charrsid15098623 \hich\af13\dbch\af13\loch\f13 https://www.wenkuxiazai.com/}}}\sectd \linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af0\afs32 \ltrch\fcs0 
+\fs32\cf6\loch\af13\insrsid6493368\charrsid15098623 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta \dbch .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxta \dbch )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}
+{\pntxta \dbch )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb \dbch (}{\pntxta \dbch )}}\pard\plain \ltrpar\qj \li0\ri0\sl180\slmult0
+\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid6493368 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs21\lang1033\langfe2052\kerning2\loch\af0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp2052 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid6493368 \loch\af0\hich\af0\dbch\f13 \'a1\'a1\'a1\'a1}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid6493368 
+\par }\pard \ltrpar\qc \li0\ri0\sl180\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15817367 {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\insrsid6493368\charrsid6493368 \loch\af0\hich\af0\dbch\f13 \'b1\'be\'ce\'c4\'b5\'b5
+\'cf\'c2\'d4\'d8\'d7\'d4}{\field\flddirty{\*\fldinst {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\cf11\insrsid6493368\charrsid6493368 \hich\af0\dbch\af13\loch\f0  HYPERLINK "https://www.wenkuxiazai.com/" }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fs24\cf11\insrsid10246904\charrsid6493368 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b5000000068007400740070003a002f002f007700770077002e00770065006e006b0075007800690061007a00610069002e0063006f006d002f000000795881f43b1d7f48af2c825dc485276300000000a5ab00000000
+00000000}}}{\fldrslt {\rtlch\fcs1 \af0 \ltrch\fcs0 \cs17\fs24\ul\cf2\insrsid6493368\charrsid6493368 \loch\af0\hich\af0\dbch\f13 \'ce\'c4\'bf\'e2\'cf\'c2\'d4\'d8\'cd\'f8}}}\sectd 
+\linex0\headery851\footery992\colsx425\endnhere\sectlinegrid312\sectspecifyl\sectrsid6493368\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\insrsid16607898 \loch\af0\hich\af0\dbch\f13 \'a3\'ac\loch\af0\hich\af0\dbch\f13 \'c4\'da\'c8\'dd}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \fs24\insrsid6493368\charrsid6493368 \loch\af0\hich\af0\dbch\f13 \'bf\'c9\loch\af0\hich\af0\dbch\f13 \'c4\'dc\'b2\'bb\'cd\'ea\'d5\'fb\'a3\'ac\'c4\'fa\'bf\'c9\'d2\'d4\'b5\'e3\'bb\'f7\'d2\'d4\'cf\'c2\'cd\'f8\'d6\'b7\'bc\'cc\'d0\'f8\'d4\'c4
+\'b6\'c1\'bb\'f2\'cf\'c2\'d4\'d8}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\insrsid6493368 \loch\af0\hich\af0\dbch\f13 \'a3\'ba}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\insrsid6493368 
+\par }\pard \ltrpar\qc \li0\ri0\sl180\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3869496 {\field{\*\fldinst {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\insrsid15866361 \hich\af0\dbch\af13\loch\f0  HYPERLINK "http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html" 
+}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\insrsid10246904\charrsid15866361 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b6600000068007400740070003a002f002f006200620073002e007800750065006800610069002e006e00650074002f00670065007400700061007300730077006f00720064002e0061007300700078000000795881f4
+3b1d7f48af2c825dc485276300000000a5ab000000000000}}}{\fldrslt {\rtlch\fcs1 \af0 \ltrch\fcs0 \cs17\fs24\ul\cf2\insrsid3869496\charrsid15866361 \hich\af0\dbch\af13\loch\f0 http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html}}}\sectd 
+\linex0\headery851\footery992\colsx425\endnhere\sectlinegrid312\sectspecifyl\sectrsid6493368\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\insrsid6493368\charrsid6493368 
+\par }\pard \ltrpar\qj \li0\ri0\sl180\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid6493368 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid6493368 
+\par }\pard \ltrpar\qc \li0\ri0\sl180\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid3869496 {\rtlch\fcs1 \af0\afs36 \ltrch\fcs0 \b\fs36\insrsid3869496\charrsid15866361 \loch\af0\hich\af0\dbch\f13 鱼c小甲鱼零基础学python全套课后题}{
+\rtlch\fcs1 \af0\afs36 \ltrch\fcs0 \b\fs36\insrsid6493368\charrsid15866361 
+\par }\pard \ltrpar\qj \li0\ri0\sl180\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid6493368 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid6493368 
+\par 
+\par }\pard \ltrpar\qj \li0\ri0\sl360\slmult1\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid15866361 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f13\fs24\insrsid3869496\charrsid15866361 \hich\af13\dbch\af13\loch\f13 鱼c小甲鱼零基础学python全套课后题\par\par
+第一节课\par\par0. Python 是什么类型的语言？\par\parPython是脚本语言\par\par脚本语言(Scripting language)是电脑编程语言，因此也能让开发者藉以编写出让电脑听命行事的程序。以简单的方式快速完成某些复杂的事情通常是创造脚本语言的重要原则，基于这项原则，使得脚本语言通常比 C语言、C  语言 或 Java 之类的系统编程语言要简单容易。\par\par \par\par也让脚本语言另有一些属于脚本语言的特性：\par\par \par\par  语法和结构通常比较简单\par\par  学习和使用通常比较简单\par\par  通常以容易修改程序的“解释”作为运行方式，而不需要“编译”\par\par  程序的开发产能优于运行性能\par\par一个脚本可以使得本来要用键盘进行的相互式操作自动化。一个Shell脚本主要由原本需要在命令行输入的命令组成，或在一个文本编辑器中，用户可以使用脚本来把一些常用的操作组合成一组串行。主要用来书写这种脚本的语言叫做脚本语言。很多脚本语言实际上已经超过简单的用户命令串行的指令，还可以编写更复杂的程序。\par\par \par\par1. IDLE 是什么？\par\par \par\parIDLE是一个Python Shell，shell的意思就是“外壳”，基本上来说，就是一个通过键入文本与程序交互的途径！像我们Windows那个cmd窗口，像Linux那个黑乎乎的命令窗口，他们都是shell，利用他们，我们就可以给操作系统下达命令。同样的，我们可以利用IDLE这个shell与Python进行互动。\par\par \par\par2. print() 的作用是什么？\par\par \par\parprint() 会在输出窗口中显示一些文本（在这一讲中，输出窗口就是IDLE shell窗口）。\par\par \par\par3. Python 中表示乘法的符号是什么？\par\par \par\parPython中的乘号是*（星号）。\par\par \par\par4. 为什么 &gt;&gt;&gt;print('I love http://www.wenkuxiazai.com ' * 5) 可以正常执行，\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar\par但 &gt;&gt;&gt;print('I love http://www.wenkuxiazai.com '   5) 却报错？\par\par \par\par在 Python 中不能把两个完全不同的东西加在一起，比如说数字和文本，正是这个原因，&gt;&gt;&gt;print('I love http://www.wenkuxiazai.com '   5) 才会报错。这就像是在说“五只小甲鱼加上苍井空会是多少？”一样没有多大意义，结果可能是五，可能是六，也可能是八！不过乘以一个整数来翻倍就具有一定的意义了，前边的例子就是将 &quot;I love http://www.wenkuxiazai.com&quot; 这个字符串打印五次。\par\par \par\par5. 如果我需要在一个字符串中嵌入一个双引号，正确的做法是？\par\par \par\par你有两个选择：可以利用反斜杠（\）对双引号转义：\&quot;，或者用单引号引起这个字符串。例如：' I l&quot;o&quot;ve http://www.wenkuxiazai.com '。\par\par \par\par6. 为什么我们要使用 Python3？Python2到底有什么问题？看起来很多程序员依然都在使用Python2？\par\par确实还有相当多的程序员在使用 Python2，不过 Python3 才是 Python 发展的未来，就像 XP 和 WIN7 一样。在《零基础入门学习Python》的系列教程准备中，小甲鱼发觉 Python3 中的新特性确实很妙，很值得进行深入学习！你也不用担心，如果你了解了 Python3，Python2 的代码阅读对于你来说根本不成问题！\par\par第二节课\par\par0. 什么是BIF？\par\par \par\parBIF 就是 Built-in Functions，内置函数。为了方便程序员快速编写脚本程序（脚本就是要编程速度快快快！！！），Python 提供了非常丰富的内置函数，我们只需要直接调用即可，例如 print() 的功能是“打印到屏幕”，input() 的作用是接收用户输入（注：Pyhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlthon3 用 input() 取代了 Python2 的 raw_input()，用法如有不懂请看视频讲解）。\par\par \par\par太多BIF学不过来怎么办？看不懂英文说明怎么办？Python3的资料太少怎么办？没事，有了小甲鱼，妈妈再也不用担心我的学习了！\par\par \par\par1. 用课堂上小甲鱼教的方法数一数 Python3 提供了多少个 BIF？\par\par在 Python 或 IDLE 中，输入 dir(__builtins__) 可以看到 Python 提供的内置方法列表（注意，builtins 前后是两个下划线哦）其中小写的就是 BIF。如果想具体查看某个 BIF 的功能，比如 input()，可以在 shell 中输入 help(input)，就会得到这个 BIF 的功能描述。哦，答案应该是 68 个，不信你自己数数看，你们肯定没有自己完成作业就来看答案！哼~ T_T\par\par \par\par2. 在 Python 看来：'FishC' 和 'fishc' 一样吗？\par\par不一样，因为 Python 是一个“敏感的小女孩”，所以不要试图欺骗她，对 Python 来说，fishc 和 FishC 是完全不同的两个名字，所以编程的时候一定要当心。不过 Python 会帮助解决可能因此出现的问题，例如只有当标识符已经赋值后（还记得吗，小甲鱼在课堂中说过 Python 的变量是不用先声明的）才能在代码中使用，未赋值的标识符直接使用会导致运行时错误，所以你很快就可以根据经验发现此问题。\par\par \par\par3. 在小甲鱼看来，Python 中什么是最重要的？你赞同吗？\par\par \par\par缩进！在小甲鱼看来，缩进是 Python 的灵魂，缩进的严格要求使得 Python 的代码显得非常精简并且有层次（小甲鱼阅读过很多大牛的代码，那个乱......C语言不是有国际乱码大赛嘛......）。\par\par \par\par所以在 Python 里对待缩进代码要十分小心，如果没有正确地缩进，代码所做的事情可能和你的期望相去甚远（就像C语言里边括号打错了位置）。\par\par如果http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html在正确的位置输入冒号“:”，IDLE 会自动将下一行缩进！\par\par \par\par4. 这节课的例子中出现了“=”和“==”，他们表示不同的含义，你在编程的过程中会不小心把“==”误写成“=”吗？有没有好的办法可以解决这个问题呢？\par\parC语言的话，如果 if( c == 1 ) 写成 if( c = 1 )，程序就完全不按程序员原本的目的去执行，但在 Python 这里，不好意思，行不通，语法错误！Python 不允许 if 条件中赋值，所以 if c = 1: 会报错！\par\par \par\par小甲鱼觉得这种做法可以非常有效的防止程序员因为打炮、熬夜等问题导致粗心的 BUG ，并且这类 BUG 杀伤力都巨大！\par\par \par\par5. 你听说过“拼接”这个词吗？\par\par在一些编程语言，我们可以将两个字符串“相加”在一起，如：'I'   'Love'   'FishC' 会得到 'ILoveFishC'，在 Python 里，这种做法叫做拼接字符串。\par\par0. 编写程序：hello.py，要求用户输入姓名并打印“你好，姓名！”\par\par \par\par1. name = input(&quot;请输入您的姓名：&quot;)\par\par2. print('你好，'   name   '!')\par\par复制代码\par\par \par\par1. 编写程序：calc.py 要求用户输入1到100之间数字并判断，输入符合要求打印“你妹好漂亮”，不符合要求则打印“你大爷好丑”\par\par1. temp = input(&quot;请输入1到100之间的数字：&quot;)\par\par2. num = int(temp)\par\par3. if 1 &lt;= num &lt;= 100:\par\par4.     print('你妹好漂亮^_^')\par\par5. else:\par\par6.     print('你大爷好丑T_T')\par\par复制代码\par\par \par\par第三课\par\par5. 如果非要在原始字符串结尾输入反斜杠，可以http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html如何灵活处理？\par\par1. &gt;&gt;&gt;str = r'C:\Program Files\FishC\Good''\\'\par\par复制代码\par\par \par\par第四课\par\par测试题：\par\par \par\par0. 请问以下代码会打印多少次“我爱鱼C！”\par\par1. while 'C':\par\par2.     print('我爱鱼C!') 复制代码\par\par \par\par1. 请问以下代码会打印多少次“我爱鱼C！” 1. i = 10\par\par2. while i:\par\par3.     print('我爱鱼C!')\par\par4.     i = i - 1\par\par复制代码\par\par \par\par2. 请写出与 10 &lt; cost &lt; 50 等价的表达式\par\par \par\par3. Python3 中，一行可以书写多个语句吗？\par\par \par\par4. Python3 中，一个语句可以分成多行书写吗？\par\par \par\par5. 请问Python的 and 操作符 和C语言的 &amp;&amp; 操作符 有何不同？【该题针对有C或C  基础的朋友】\par\par6. 听说过“短路逻辑（short-circuit logic）”吗？\par\par \par\par动动手：\par\par \par\par0. 完善第二个改进要求（为用户提供三次机会尝试，机会用完或者用户猜中答案均退出循环）并改进视频中小甲鱼的代码。\par\par \par\par1. 尝试写代码实现以下截图功能：\par\par \par\par第五课\par\par测试题：\par\par \par\par0. 在 Python 中，int 表示整型，那你还记得 bool、float 和 str 分别表示什么吗？\par\par \par\par1. 你知道为什么布尔类型(bool)的 True 和 False 分别用 1 和 0 来代替吗？\par\par \par\par2. 使用 int() 将小数转换为整数，结果http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html是向上取整还是向下取整呢？\par\par3. 我们人类思维是习惯于“四舍五入”法，你有什么办法使得 int() 按照“四舍五入”的方式取整吗？\par\par \par\par4. 取得一个变量的类型，视频中介绍可以使用 type() 和 isinstance()，你更倾向于使用哪个？\par\par \par\par5. Python3 可以给变量命名中文名，知道为什么吗？\par\par \par\par6. 【该题针对零基础的鱼油】你觉得这个系列教学有难度吗？\par\par \par\par动动手：\par\par \par\par0. 针对视频中小甲鱼提到的小漏洞，再次改进我们的小游戏：当用户输入错误类型的时候，及时提醒用户重新输入，防止程序崩溃。\par\par \par\par如果你尝试过以下做法，请举下小手：\par\par1. temp = input(&quot;不妨猜一下小甲鱼现在心里想的是哪个数字：&quot;)\par\par2. # 这种想法是因为type(1)会返回&lt;class 'int'&gt;，如果type(temp)返回结果一致说明\par\par输入是整数。\par\par3. while type(temp) != type(1):\par\par4.     print(&quot;抱歉，输入不合法，&quot;, end='')\par\par5.     temp = input(&quot;请输入一个整数：&quot;)\par\par复制代码\par\par或者可能这样：\par\par1. temp = input(&quot;不妨猜一下小甲鱼现在心里想的是哪个数字：&quot;)\par\par2. # not操作符的作用是将布尔类型的结果翻转：即取反的意思，not True == Flase\par\par3. while not isinstance(temp, int):\par\par4.     print(&quot;抱歉，输入不合法，&quot;, end='')\par\par5.     temp = input(&quot;请输入一个整数：&quot;)\par\pahttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlr复制代码\par\par以上方法的思路是正确的，不过似乎忽略了一点儿：就是input()的返回值始终是字符串，所以type(temp)永远是&lt;class 'str'&gt;！\par\par \par\par其实有蛮多的做法可以实现的，不过就目前我们学习过的内容来看，还不足够。\par\par所以，在让大家动手完成这道题之前，小甲鱼介绍一点新东西给大家！\par\pars为字符串\par\par \par\pars.isalnum()  所有字符都是数字或者字母，为真返回 Ture，否则返回 False。\par\pars.isalpha()   所有字符都是字母，为真返回 Ture，否则返回 False。\par\pars.isdigit()     所有字符都是数字，为真返回 Ture，否则返回 False。\par\pars.islower()    所有字符都是小写，为真返回 Ture，否则返回 False。\par\pars.isupper()   所有字符都是大写，为真返回 Ture，否则返回 False。\par\pars.istitle()      所有单词都是首字母大写，为真返回 Ture，否则返回 False。\par\pars.isspace()   所有字符都是空白字符，为真返回 Ture，否则返回 False。\par\par例如：\par\par \par\par&gt;&gt;&gt; s = 'I LOVE FISHC'\par\par&gt;&gt;&gt; s.isupper()\par\par&gt;&gt;&gt; True\par\par \par\par好了，文字教程就到这里，大家赶紧趁热打铁，改造我们的小游戏吧！\par\par \par\par1. 写一个程序，判断给定年份是否为闰年。（注意：请使用已学过的 BIF 进行灵活运用）\par\par \par\par这样定义闰年的:能被4整除但不能被100整除,或者能被400整除都是闰年。\par\par \par\par2. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par测试题答案：\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar\par \par\par本帖隐藏的内容\par\par0. 在 Python 中，int 表示整型，那你还记得 bool、float 和 str 分别表示什么吗？\par\par \par\parbool 表示布尔类型\par\parfloat 表示浮点型\par\parstr 表示字符串\par\par \par\par1. 你知道为什么布尔类型(bool)的 True 和 False 分别用 1 和 0 来代替吗？\par\par \par\par你可能听说过计算机是很“笨”的，究其根本是因为它只认识二进制数，所以所有的编程语言最终都会转换成简单的二进制序列给CPU按照一定的规则解析。 由于二进制只有两个数：0 和 1，因此用 0 和 1 来表示 False 和 True 再适合不过了，因为不用浪费资源在转换的过程上！\par\par \par\par2. 使用 int() 将小数转换为整数，结果是向上取整还是向下取整呢？\par\par我们可爱的小甲鱼说了，小数取整会采用比较暴力的截断方式，即向下取整。（注：\par\par5.5向上取整为6，向下取整为5）\par\par \par\par3. 我们人类思维是习惯于“四舍五入”法，你有什么办法使得 int() 按照\par\par“四舍五入”的方式取整吗？\par\par \par\parint() 固然没那么“聪明”，但机器是死的，鱼油是活的！\par\par5.4 “四舍五入”结果为：5，int(5.4 0.5) == 5\par\par5.6 “四舍五入”结果为：6，int(5.6 0.5) == 6\par\par大家看明白了吗？\par\par \par\par4. 取得一个变量的类型，视频中介绍可以使用 type() 和 isinstance()，你更倾向于使用哪个？\par\par \par\par建议使用 isinstance()，因为它的返回结果比较直接，另外 type() 其实并没有你想象的那么简单，我们后边会讲到。\par\par \par\par5. Python3 可以给变量命名中文名，知道为什么吗？\par\par \par\parPyhton3 源码文件http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html默认使用utf-8编码（支持中文），这就使得以下代码是合法的：\par\par&gt;&gt;&gt; 小甲鱼 = '我爱你'\par\par&gt;&gt;&gt; print(小甲鱼)\par\par&gt;&gt;&gt; 我爱你\par\par \par\par6. 【该题针对零基础的鱼油】你觉得这个系列教学有难度吗？\par\par \par\par如果有不懂的问题，请在此处提问：http://www.wenkuxiazai.com/forum-173-1.html\par\par另外需要小甲鱼在视频讲解的方面做哪方面改进请回帖告之！\par\par \par\par动动手答案：\par\par本帖隐藏的内容\par\par0. 针对视频中小甲鱼提到的小漏洞，再次改进我们的小游戏：当用户输入错误类型的时候，及时提醒用户重新输入，防止程序崩溃。\par\par需要注意的地方在代码中已经注释！\par\par1. import random\par\par2. times = 3\par\par3. secret = random.randint(1,10)\par\par4. print('------------------我爱鱼C工作室------------------')\par\par5. guess = 0\par\par6. print(&quot;不妨猜一下小甲鱼现在心里想的是哪个数字：&quot;, end=&quot; &quot;)\par\par7. while (guess != secret) and (times &gt; 0):\par\par8.     temp = input()\par\par9.     while not temp.isdigit():\par\par10.         temp = input(&quot;抱歉，您的输入有误，请输入一个整数：&quot;) 11.     guess = int(temp)\par\par12.     times = times - 1 # 用户每输入一次，可用机会就-1\par\par13.     if guess == secret:http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html\par\par14.         print(&quot;我草，你是小甲鱼心里的蛔虫吗？！&quot;)\par\par15.         print(&quot;哼，猜中了也没有奖励！&quot;)\par\par16.     else:\par\par17.         if guess &gt; secret:\par\par18.             print(&quot;哥，大了大了~~~&quot;)\par\par19.         else:\par\par20.             print(&quot;嘿，小了，小了~~~&quot;)\par\par21.         if times &gt; 0:\par\par22.             print(&quot;再试一次吧：&quot;, end=&quot; &quot;)\par\par23.         else:\par\par24.             print(&quot;机会用光咯T_T&quot;)\par\par25. print(&quot;游戏结束，不玩啦^_^&quot;)\par\par复制代码\par\par \par\par1. 写一个程序，判断给定年份是否为闰年。\par\par1. temp = input('请输入一个年份：')\par\par2. while not temp.isdigit():\par\par3.     temp = input(&quot;抱歉，您的输入有误，请输入一个整数：&quot;)\par\par4.\par\par5. year = int(temp)\par\par6. if year/400 == int(year/400):\par\par7.     print(temp   ' 是闰年！')\par\par8. else:\par\par9.     if (year/4 == int(year/4)) and (year/100 != int(year/100)):\par\par10.         print(temp   ' 是闰年http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html！')\par\par11.     else:\par\par12.         print(temp   ' 不是闰年！')\par\par复制代码\par\par \par\par2. 尝试写代码实现以下截图功能：\par\par \par\par \par\par3. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\par\par \par\par测试题答案：\par\par本帖隐藏的内容\par\par0. 请问以下代码会打印多少次“我爱鱼C！”\par\par \par\par死循环，会一直打印“我爱鱼C！”（嗯，这也算是永远支持鱼C的方法之一），\par\par
+直到崩溃或者用户按下快捷键 CTRL   C（强制结束）\par\par \par\par造成死循环的原因是 while 后边的条件永远为真(True)，在 Python 看来，只有以下内容会被看作假（注意冒号括号里边啥都没有，连空格都不要有！）：False None 0 &quot;&quot; '' () [] {}\par\par \par\par其他一切都被解释为真！\par\par \par\par不妨试试：\par\par1. while '':\par\par2.     print('进入循环')\par\par3. print('退出循环')\par\par复制代码\par\par \par\par或者\par\par1. while Flase:\par\par2.     print('进入循环')\par\par3. print('退出循环')\par\par复制代码\par\par \par\par或者\par\par1. while 0:\par\par2.     print('进入循环')\par\par3. print('退出循环')\par\par复制代码\par\par \par\par1. 请问以下代码会打印多少次“我爱鱼C！”\par\par \par\par会打印 10 次。\par\par \par\par2. 请写出与 10 &lt; http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlcost &lt; 50 等价的表达式\par\par \par\par(10 &lt; cost) and (cost &lt; 50)\par\par \par\par3. Python3 中，一行可以书写多个语句吗？\par\par \par\par
+可以，语句之间用分号隔开即可，不妨试试：\par\par&gt;&gt;&gt; print('I love fishc');print('very much!')\par\par \par\par4. Python3 中，一个语句可以分成多行书写吗？\par\par \par\par可以，一行过长的语句可以使用反斜杠或者括号分解成几行，不妨试试：\par\par1. &gt;&gt;&gt; 3 &gt; 4 and \\par\par2.   1 &lt; 2\par\par复制代码\par\par或者\par\par1. &gt;&gt;&gt; ( 3 &gt; 4 and\par\par2.   1 &lt; 2 )\par\par复制代码\par\par \par\par5. 【该题针对有C或C  基础的朋友】请问Python的 and 操作符 和C语言的 &amp;&amp; 操作符 有何不同？\par\par \par\par有图有真相(C\C   VS Python)：\par\par \par\par
+ \par\parVS\par\par \par\par
+ \par\par6. 听说过“短路逻辑（short-circuit logic）”吗？\par\par \par\par逻辑操作符有个有趣的特性：在不需要求值的时候不进行操作。这么说可能比较“高深”，举个例子，表达式 x and y，需要 x 和 y 两个变量同时为真(True)的时候，结果才为真。因此，如果当 x 变量得知是假(False)的时候，表达式就会立刻返回 False，而不用去管 y 变量的值。\par\par \par\par这种行为被称为短路逻辑（short-circuit logic）或者惰性求值（lazy evaluation），这种行为同样也应用与 or 操作符，这个后边的课程小甲鱼会讲到，http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html不急。\par\par实际上，Python 的做法是如果 x 为假，表达式会返回 x 的值(0)，否则它就会返回 y 的值（例子参考楼上那题）。\par\par \par\par
+动动手答案：\par\par本帖隐藏的内容\par\par0. 完善第二个改进要求（为用户提供三次机会尝试，机会用完或者用户猜中答案均退出循环）并改进视频中小甲鱼的代码。\par\par \par\par需要注意的地方在代码中已经注释！\par\par \par\par1. import random\par\par2. times = 3\par\par3. secret = random.randint(1,10)\par\par4. print('------------------我爱鱼C工作室------------------')\par\par5. # 这里先给guess赋值（赋一个绝对不等于secret的值）\par\par6. guess = 0\par\par7. # print()默认是打印完字符串会自动添加一个换行符，end=&quot; &quot;参数告诉print()用空格代替换行\par\par8. # 嗯，小甲鱼觉得富有创意的你应该会尝试用 end=&quot;JJ&quot;？\par\par9. print(&quot;不妨猜一下小甲鱼现在心里想的是哪个数字：&quot;, end=&quot; &quot;)\par\par10. while (guess != secret) and (times &gt; 0):\par\par11.     temp = input()\par\par12.     guess = int(temp)\par\par13.     times = times - 1 # 用户每输入一次，可用机会就-1\par\par14.     if guess == secret:\par\par15.         print(&quot;我草，你是小甲鱼心里的蛔虫吗？！&quot;)\par\par16.         print(&quot;哼，猜中了也没有奖励！&quot;)\par\parhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html17.     else:\par\par18.         if guess &gt; secret:\par\par19.             print(&quot;哥，大了大了~~~&quot;)\par\par20.         else:\par\par21.             print(&quot;嘿，小了，小了~~~&quot;)\par\par22.         if times &gt; 0:\par\par23.             print(&quot;再试一次吧：&quot;, end=&quot; &quot;)\par\par24.         else:\par\par25.             print(&quot;机会用光咯T_T&quot;)\par\par
+26. print(&quot;游戏结束，不玩啦^_^&quot;)\par\par复制代码\par\par \par\par1. 尝试写代码实现以下截图功能：\par\par \par\par1. temp = input('请输入一个整数:')\par\par2. number = int(temp)\par\par3. i = 1\par\par4. while number:\par\par5.     print(i)\par\par6.     i = i   1\par\par7.     number = number - 1\par\par复制代码\par\par \par\par2. 尝试写代码实现以下截图功能：\par\par \par\par1. temp = input('请输入一个整数:')\par\par2. number = int(temp)\par\par3. while number:\par\par4.     i = number - 1\par\par5.     while i:\par\par6.         print(' ', end = '')\par\par7.         i = i - 1\par\par8.     j = number\par\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar9.     while j:\par\par10.         print('*', end = '')\par\par11.         j = j - 1\par\par12.     print()\par\par13.     number = number - 1\par\par复制代码\par\par第六课\par\par测试题：\par\par \par\par0. Python 的 floor 除法现在使用 “//” 实现，那 3.0 // 2.0 您目测会显\par\par
+示什么内容呢？\par\par \par\par1. a &lt; b &lt; c 事实上是等于？\par\par \par\par2. 不使用 IDLE，你可以轻松说出 5 ** -2 的值吗？\par\par \par\par3. 如何简单判断一个数是奇数还是偶数？\par\par \par\par4. 请用最快速度说出答案：not 1 or 0 and 1 or 3 and 4 or 5 and 6 or 7 and 8 and 9\par\par \par\par5. 还记得我们上节课那个求闰年的作业吗？如果还没有学到“求余”操作，还记得用什么方法可以“委曲求全”代替“%”的功能呢？\par\par \par\par动动手：\par\par \par\par0. 请写一个程序打印出 0~100 所有的奇数。\par\par \par\par1. 我们说过现在的 Python 可以计算很大很大的数据，但是......真正的大数据计算可是要靠刚刚的硬件滴，不妨写一个小代码，让你的计算机为之崩溃？\par\par2.\par\par爱因斯坦曾出过这样一道有趣的数学题：有一个长阶梯，若每步上2阶，最后剩1阶；若每步上3阶，最后剩2阶；若每步上5阶，最后剩4阶；若每步上6阶，最后剩5阶；只有每步上7阶，最后刚好一阶也不剩。\par\par（小甲鱼温馨提示：步子太大真的容易扯着蛋~~~）\par\par \par\par题目：请编程求解该阶梯至少有多少阶？\par\par \par\par3. 请写下这一节课你学习到的内容：格式不限，回忆并复述http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\par\par \par\par测试题答案：\par\par \par\par本帖隐藏的内容\par\par
+0. Python 的 floor 除法现在使用 “//” 实现，那 3.0 // 2.0 您目测会显示什么内容呢？\par\par \par\par如果回答是 1.5 那么很遗憾，您受到 C 语言的影响比较大，Python 这里会义无反顾地执行 floor 除法原则，答案是：1.0\par\par \par\par1. a &lt; b &lt; c 事实上是等于？\par\par \par\par(a &lt; b) and (b &lt; c)\par\par \par\par2. 不使用 IDLE，你可以轻松说出 5 ** -2 的值吗？\par\par \par\par0.04，也就是 1/25\par\par \par\par幂运算操作符比其左侧的一元操作符优先级高，比其右侧的一元操作符优先级低。\par\par \par\par3. 如何简单判断一个数是奇数还是偶数？\par\par \par\par使用求余可以简单得到答案：能被 2 整除为偶数，所以 x % 2 == 0，否则为奇数。\par\par \par\par4. 请用最快速度说出答案：not 1 or 0 and 1 or 3 and 4 or 5 and 6 or 7 and 8 and 9\par\par \par\par如果你的回答是 0，那么小甲鱼很开心你中招了！\par\par答案是：4\par\par \par\parnot or and 的优先级是不同的：not &gt; and &gt; or\par\par \par\par我们按照优先级给它们加上括号：(not 1) or (0 and 1) or (3 and 4) or (5 and\par\par6) or (7 and 8 and 9)\par\par== 0 or 0 or 4 or 6 or 9\par\par== 4\par\par \par\par为啥是 4？\par\par \par\parhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html大家还记得第四讲作业提到的“短路逻辑”吗？3 and 4 == 4，而 3 or 4 == 3。 所以答案是：4\par\par \par\par
+温馨提示：为了更好的表达你的程序，小甲鱼再次呼吁有些括号还是不能省下的，毕竟不是所有程序员都跟你一样都将优先级烂透于心的。\par\par \par\par5. 还记得我们上节课那个求闰年的作业吗？如果还没有学到“求余”操作，还记得用什么方法可以“委曲求全”代替“%”的功能呢？\par\par \par\par因为上节课我们还没有教大家“求余”的操作，所以小甲鱼使用了“if year/400 == int(year/400)”这样的方式来“委曲求全”。\par\par \par\par动动手答案：\par\par本帖隐藏的内容 0. 请写一个程序打印出 0~100 所有的奇数。\par\par1. i = 0\par\par2. while i &lt;= 100:\par\par3.     if i % 2 != 0:\par\par4.         print(i, end=' ')\par\par5.         i  = 1\par\par6.     else:\par\par7.         i  = 1\par\par复制代码\par\par \par\par1. 我们说过现在的 Python 可以计算很大很大的数据，但是......真正的大数据计算可是要靠刚刚的硬件滴，不妨写一个小代码，让你的计算机为之崩溃？\par\parprint(2 ** 2 ** 32)\par\par# 一般很多机子都会在一会儿之后：Memory Overflow，内存不够用。 # 设计到幂操作，结果都是惊人滴。\par\par \par\par2. 题目：请编程求解该阶梯至少有多少阶？\par\par1. x = 7\par\par2. i = 1\par\par3. flag = 0\par\par4.\par\par
+5. while i &lt;= 100:\par\par6.     if (x%2 == 1) and (x%3 == 2) and (x%5 == 4) and (xhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html%6==5):\par\par7.         flag = 1\par\par8.     else:\par\par9.         x = 7 * (i 1) # 根据题意，x一定是7的整数倍，所以每次乘以7\par\par10.     i  = 1\par\par11.\par\par12. if flag == 1:\par\par13.     print('阶梯数是：', x)\par\par14. else:\par\par15.     print('在程序限定的范围内找不到答案！')\par\par复制代码\par\par第八课\par\par0. if not (money &lt; 100): 上边这行代码相当于？\par\par \par\par1. assert 的作用是什么？\par\par \par\par2. 假设有 x = 1，y = 2，z = 3，请问如何快速将三个变量的值互相交换？\par\par3. 猜猜 (x &lt; y and [x] or [y])[0] 实现什么样的功能？\par\par \par\par4. 你听说过成员资格运算符吗？\par\par \par\par动动手：\par\par0. 视频中小甲鱼使用 if elif else 在大多数情况下效率要比全部使用 if 要高，但根据一般的统计规律，一个班的成绩一般服从正态分布，也就是说平均成绩一般集中在 70~80 分之间，因此根据统计规律，我们还可以改进下程序以提高效率。\par\par \par\par题目备忘：按照100分制，90分以上成绩为A，80到90为B，60到80为C，60以下为D，写一个程序，当用户输入分数，自动转换为ABCD的形式打印。\par\par \par\par1. Python 的作者在很长一段时间不肯加入三元操作符就是怕跟C语言一样搞出国际乱码大赛，蛋疼的复杂度让初学者望而生畏，不过，如果你一旦搞清楚了三元操作符的使用技巧，或许一些比较复杂的问题反而迎刃而解。\par\par请将以下代码修改为三元操作符实现：\par\par1. x, y, z = 6, 5, 4\par\par
+2. if xhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html &lt; y:\par\par3.     small = x\par\par4.     if z &lt; small:\par\par5.         small = z\par\par6. elif y &lt; z:\par\par7.     small = y\par\par8. else:\par\par9.     small = z\par\par复制代码\par\par \par\par2. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\par\par \par\par测试题答案：\par\par \par\par本帖隐藏的内容\par\par0. if not (money &lt; 100): 这行代码相当于？\par\par \par\parif money &gt;= 100:\par\par \par\par1. assert 的作用是什么？\par\par \par\parassert这个关键字我们称之为“断言”，当这个关键字后边的条件为假的时候，程序自动崩溃并抛出AssertionError的异常。\par\par什么情况下我们会需要这样的代码呢？当我们在测试程序的时候就很好用，因为与其让错误的条件导致程序今后莫名其妙地崩溃，不如在错误条件出现的那一瞬间我们实现“自爆”。\par\par一般来说我们可以用Ta再程序中置入检查点，当需要确保程序中的某个条件一定为真才能让程序正常工作的话，assert关键字就非常有用了。\par\par \par\par2. 假设有 x = 1，y = 2，z = 3，请问如何快速将三个变量的值互相交换？\par\parx, y, z = z, y, x\par\par
+ \par\par3. 猜猜 (x &lt; y and [x] or [y])[0] 实现什么样的功能？\par\par \par\par这其实是 Python 的作者还没有为 Python 加入三元操作符之前，Python 社区的小伙伴们灵活的使用 and 和 or  搭配来实现三元操作符的功能，这里边有涉及到列表和http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html切片的知识，这部分知识很快就会讲解，迫不及待的朋友可以先稍微预习下。\par\par \par\par4. 你听说过成员资格运算符吗？\par\par \par\parPython 有一个成员资格运算符：in，用于检查一个值是否在序列中，如果在序列中返回 True，否则返回 False。\par\par例如：\par\par1. &gt;&gt;&gt; name = '小甲鱼'\par\par2. &gt;&gt;&gt; '鱼' in name\par\par3. True\par\par4. &gt;&gt;&gt; '肥鱼' in name\par\par5. False\par\par复制代码\par\par当下节课我们讲解 for 语句的时候，你看到 in 会不会就有了更深入的理解？！\par\par \par\par动动手答案：\par\par \par\par本帖隐藏的内容\par\par0. 视频中小甲鱼使用 if elif else 在大多数情况下效率要比全部使用 if 要高，但根据一般的统计规律，一个班的成绩一般服从正态分布，也就是说平均成绩一般集中在 70~80 分之间，因此根据统计规律，我们还可以改进下程序以提高效率。\par\par1. score = int(input('请输入一个分数：'))\par\par2. if 80 &gt; score &gt;= 60:\par\par3.     print('C')\par\par4. elif 90 &gt; score &gt;= 80:\par\par5.     print('B')\par\par6. elif 60 &gt; score &gt;= 0:\par\par
+7.     print('D')\par\par8. elif 100 &gt;= score &gt;= 90:\par\par9.     print('A')\par\par10. else: 11.     print('输入错误！')\par\par复制代码\par\par \par\par1. Python 的作者在很长一段时间不肯加入三元操作符就是怕跟C语言一样搞出国际乱http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html码大赛，蛋疼的复杂度让初学者望而生畏，不过，如果你一旦搞清楚了三元操作符的使用技巧，或许一些比较复杂的问题反而迎刃而解。\par\par1. small = x if (x &lt; y and x &lt; z) else (y if y &lt; z else z)\par\par复制代码\par\par \par\par第九课\par\par0. 下面的循环会打印多少次&quot;I Love FishC&quot;？\par\par1. for i in range(0, 10, 2): 2.     print('I Love FishC')\par\par复制代码\par\par \par\par1. 下面的循环会打印多少次&quot;I Love FishC&quot;？\par\par1. for i in 5:\par\par2.     print('I Love FishC')\par\par复制代码\par\par2. 回顾一下 break 和 continue 在循环中起到的作用？\par\par \par\par3. 请谈下你对列表的理解？\par\par \par\par4. 请问 range(10) 生成哪些数？\par\par \par\par5. 目测以下程序会打印什么？\par\par1. while True:\par\par2.     while True:\par\par3.         break\par\par4.         print(1)\par\par5.     print(2)\par\par6.     break\par\par
+7. print(3)\par\par复制代码\par\par6. 什么情况下我们要使循环永远为真？\par\par \par\par7. 【学会提高代码的效率】你的觉得以下代码效率方面怎样？有没有办法可以大幅度改进(仍然使用while)？\par\par1. i = 0\par\par2. string = 'http://www.wenkuxiazai.com'\par\par3. while i &lt; len(string)):\par\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar4.     print(i)\par\par5.     i  = 1\par\par复制代码\par\par \par\par动动手：\par\par \par\par细节决定成败，看答案前记得自己先敲代码！\par\par \par\par0. 设计一个验证用户密码程序，用户只有三次机会输入错误，不过如果用户输入的内容中包含&quot;*&quot;则不计算在内。\par\par \par\par程序演示如图：\par\par \par\par
+ \par\par1. 编写一个程序，求 100~999 之间的所有水仙花数。\par\par如果一个 3 位数等于其各位数字的立方和，则称这个数为水仙花数。例如：153 = 1^3   5^3   3^3，因此 153 就是一个水仙花数。\par\par2. 三色球问题\par\par有红、黄、蓝三种颜色的求，其中红球 3 个，黄球 3 个，绿球 6 个。先将这 12 个球混合放在一个盒子中，从中任意摸出 8 个球，编程计算摸出球的各种颜色搭配。\par\par \par\par3. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\par\par
+ \par\par测试题答案：\par\par \par\par本帖隐藏的内容\par\par0. 下面的循环会打印多少次&quot;I Love FishC&quot;？\par\par1. for i in range(0, 10, 2):\par\par2.     print('I Love FishC')\par\par复制代码\par\par5 次，因为从 0 开始，到 10 结束，步进为 2。\par\par \par\par1. 下面的循环会打印多少次&quot;I Love FishC&quot;？\par\par1. for i in 5:\par\par2.     print('I Love FishC')\par\par复制代码\par\par会报错，上节课的课后习题我们提到了 in 是“成员资格运算符”，而不是像 C 语言那样去使用http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html for 语法。Python 的 for 更像脚本语言的 foreach。\par\par \par\par2. 回顾一下 break 和 continue 在循环中起到的作用\par\par \par\parbreak语句的作用是终止当前循环，跳出循环体。\par\parcontinue语句的作用是终止本轮循环并开始下一轮循环（这里要注意的是：在开始下一轮循环之前，会先测试循环条件）。\par\par \par\par3. 请谈下你对列表的理解\par\par \par\par嗯，有些知识点需要自己总结才能加固，下节课小甲鱼将跟大家畅谈一个打了激素的数组：列表，不容错过哦^_^\par\par \par\par4. 请问 range(10) 生成哪些数？\par\par \par\par会生成 range(0, 10)，list(range(0, 10)) 转换成列表是：[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]，注意不包含 10 哦。\par\par \par\par5. 目测以下程序会打印什么？\par\par1. while True:\par\par
+2.     while True:\par\par3.         break\par\par4.         print(1)\par\par5.     print(2)\par\par6.     break\par\par7. print(3)\par\par复制代码\par\par会打印：\par\par2\par\par3\par\par \par\par因为 break 只能跳出一层循环，记住咯！\par\par \par\par6. 什么情况下我们要使循环永远为真？\par\par \par\parwhile Ture:\par\par循环体\par\par \par\par同样用于游戏实现，因为游戏只要运行着，就需要时刻接收用户输入，因此使用永远为真确保游戏“在线”。操作系统也是同样的道理，时刻待命，操作系统永远为真的这个循环叫做消息循环。另外，许多通讯服务器的客户端/服务器系统也是通过这样的原理来工作的。\par\par \par\par所以http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html永远为“真”虽然是“死循环”，但不一定是坏事，再说了，我们可以随时用 break 来跳出循环！\par\par \par\par7. 【学会提高代码的效率】你的觉得以下代码效率方面怎样？有没有办法可以大幅度改进(仍然使用while)？\par\par1. i = 0\par\par2. string = 'http://www.wenkuxiazai.com'\par\par3. while i &lt; len(string)):\par\par4.     print(i)\par\par5.     i  = 1\par\par复制代码\par\par \par\par这段代码之所以“效率比较低”是因为每次循环都需要调用一次 len() 函数（我们还没有学到函数的概念，小甲鱼这里为零基础的朋友形象的解释下：就像你打游\par\par
+戏打得正HIGH的时候，老妈让你去买盐......你有两种选择，一次买一包，一天去买五次，或者一次性买五包回来，老妈要就直接给她。）\par\par1. i = 0\par\par2. string = 'http://www.wenkuxiazai.com'\par\par3. length = len(string)\par\par4. while i &lt; length:\par\par5.     print(i)\par\par6.     i  = 1\par\par复制代码\par\par \par\par小甲鱼希望学习咱的课程的朋友不是只为了可以把程序写出来，而是追求把代码写好，写漂亮，做一个有理想、有追求的程序猿！\par\par \par\par动动手答案：\par\par \par\par本帖隐藏的内容\par\par0. 设计一个验证用户密码程序，用户只有三次机会输入错误，不过如果用户输入的内容中包含&quot;*&quot;则不计算在内。\par\par1. count = 3\par\par2. password = 'http://www.wenkuxiazai.com'\par\par3.\par\par4. while count:\par\par5.     passwdhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html = input('请输入密码：')\par\par6.     if passwd == password:\par\par7.         print('密码正确，进入程序......')\par\par8.         break\par\par9.     elif '*' in passwd:\par\par10.         print('密码中不能含有&quot;*&quot;号！您还有', count, '次机会！', end=' ')\par\par11.         continue\par\par12.     else:\par\par13.         print('密码输入错误！您还有', count-1, '次机会！', end=' ')\par\par14.     count -= 1\par\par复制代码\par\par
+ \par\par1. 编写一个程序，求 100~999 之间的所有水仙花数。\par\par如果一个 3 位数等于其各位数字的立方和，则称这个数为水仙花数。例如：153 = 1^3   5^3   3^3，因此 153 就是一个水仙花数\par\par1. for i in range(100, 1000):\par\par2.     sum = 0\par\par3.     temp = i\par\par4.     while temp:\par\par5.         sum = sum   (temp) ** 3\par\par6.         temp //= 10         # 注意这里要使用地板除哦~\par\par7.     if sum == i:\par\par8.         print(i)\par\par复制代码\par\par \par\par2. 三色球问题\par\par有红、黄、蓝三种颜色的求，其中红球 3 个，黄球 3 个，绿球 6 个。先将这 12 个球混合放在一个盒子中，从中任意摸出 8 个球，编程计算摸出球的各种颜色搭配。\par\par1. print('red\tyellow\tblue')\pahttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlr\par2. for red in range(0, 4):\par\par3.     for yellow in range(0, 4):\par\par4.         for green in range(2, 7):\par\par5.             if red   yellow   green == 8:\par\par6.                 # 注意，下边不是字符串拼接，因此不用   哦~\par\par7.                 print(red, '\t', yellow, '\t', green)\par\par复制代码\par\par注释：range(2, 7)是产生[2, 3, 4, 5, 6]5个数，绿球不能是1个，因为如果绿球是1个的话，红球   黄球需要有7个才能符合题意，而红球和黄球每种只有3个，因此是range(2, 7)\par\par第十课\par\par测试题：\par\par \par\par0. 列表都可以存放一些什么东西？\par\par \par\par1. 向列表增加元素有哪些方法？\par\par \par\par
+2. append() 方法和 extend() 方法都是向列表的末尾增加元素，请问他们有什么区别？\par\par3. member.append(['竹林小溪', 'Crazy迷恋']) 和 member.extend(['竹林小溪', 'Crazy迷恋']) 实现的效果一样吗？\par\par4. 有列表 name = ['F', 'i', 'h', 'C']，如果小甲鱼想要在元素 'i' 和 'h' 之间插入元素 's'，应该使用什么方法来插入？\par\par \par\par动动手：\par\par \par\par0. 自己动手试试看，并分析在这种情况下，向列表添加数据应当采用哪种方法比较好？\par\par假设给定以下列表：\par\par \par\parmember = ['小甲鱼', '黑夜', '迷途', '怡静', '秋舞斜阳']\par\par要求将列表修改为：\par\par \par\parmember = http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html['小甲鱼', 88, '黑夜', 90, '迷途', 85, '怡静', 90, '秋舞斜阳', 88]\par\par方法一：使用 insert() 和 append() 方法修改列表。\par\par \par\par方法二：重新创建一个同名字的列表覆盖。\par\par \par\par1. 利用 for 循环打印上边 member 列表中的每个内容，如图：\par\par \par\par2. 上一题打印的样式不是很好，能不能修改一下代码打印成下图的样式呢？【请至少使用两种方法实现】\par\par
+ \par\par3. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\par\par \par\par测试题答案：\par\par \par\par本帖隐藏的内容\par\par0. 列表都可以存放一些什么东西？\par\par \par\par我们说 Python 的列表是一个打了激素的数组，如果把数组比喻成集装箱，那么 Python 的列表就是一个大仓库，Ta 可以存放我们已经学习过的任何数据类型。\par\par&gt;&gt;&gt; mix = [1,  小甲鱼 , 3.14, [1, 2, 3]]\par\par \par\par1. 向列表增加元素有哪些方法？\par\par \par\par这节课我们教过大家三种方法想列表增加元素，分别是：append()、extend() 和 insert()。\par\par \par\par2. append() 方法和 extend() 方法都是向列表的末尾增加元素，请问他们有什么区别？\par\par \par\parappend() 方法是将参数作为一个元素增加到列表的末尾。\par\parextend() 方法则是将参数作为一个列表去扩展列表的末尾。\par\par
+请看以下示例：\par\par1. &gt;&gt;&gt; name = ['F', 'i', 's', 'h']\par\par2. &gt;&gt;&gt; name.append('C')\par\par3. &gthttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html;&gt;&gt; name\par\par4. ['F', 'i', 's', 'h', 'C']\par\par5. &gt;&gt;&gt; name.extend(['.', 'c'])\par\par6. &gt;&gt;&gt; name\par\par7. ['F', 'i', 's', 'h', 'C', '.', 'c']\par\par8. &gt;&gt;&gt; name.append(['o', 'm'])\par\par9. &gt;&gt;&gt; name\par\par10. ['F', 'i', 's', 'h', 'C', '.', 'c', ['o', 'm']]\par\par复制代码\par\par \par\par3. member.append(['竹林小溪', 'Crazy迷恋']) 和 member.extend(['竹林小溪', 'Crazy迷恋']) 实现的效果一样吗？\par\par \par\par不一样，因为怕大家没有仔细看上一题的示例，所以不懂的请看上一题解释。\par\par \par\par4. 有列表 name = ['F', 'i', 'h', 'C']，如果小甲鱼想要在元素 'i' 和 'h' 之间插入元素 's'，应该使用什么方法来插入？\par\par \par\parname.insert(2, 's')\par\par \par\par动动手答案：\par\par \par\par本帖隐藏的内容\par\par0. 自己动手试试看，并分析在这种情况下，向列表添加数据应当采用哪种方法比较好？\par\par \par\par假设给定以下列表：\par\par \par\parmember = ['小甲鱼', '黑夜', '迷途', '怡静', '秋舞斜阳']\par\par \par\par要求将列表修改为：\par\par
+member = ['小甲鱼', 88, '黑夜', 90, '迷途', 85, '怡静', 90, '秋舞斜阳', 88]\par\par方法一：使用 insert() 和 append() 方法修改列表。\par\par \par\par方法http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html二：重新创建一个同名字的列表覆盖。\par\par \par\par解答：\par\par \par\par方法一：\par\par1. member.insert(1, 88)\par\par2. member.insert(3, 90)\par\par3. member.insert(5, 85)\par\par4. member.insert(7, 90)\par\par5. member.append(88)\par\par复制代码\par\par方法二：\par\par1. member = ['小甲鱼', 88, '黑夜', 90, '迷途', 85, '怡静', 90, '秋舞斜阳', 88] 复制代码\par\par对于这种情况，明显是第二种方法看起来要好一些嘛。\par\par \par\par不过对于大型的列表，第一种方法可能更合适，所以我们说永远没有最好的，只有最合适的。\par\par \par\par1. 利用 for 循环打印上边 member 列表中的每个内容\par\par1. member = ['小甲鱼', 88, '黑夜', 90, '迷途', 85, '怡静', 90, '秋舞斜阳', 88]\par\par2. for each in member:\par\par3.     print(each)\par\par复制代码\par\par \par\par2. 上一题打印的样式不是很好，能不能修改一下代码打印成下图的样式呢？【请至少使用两种方法实现】\par\par1. 方法一：\par\par2. count = 0\par\par3. length = len(member)\par\par
+4. while count &lt; length:\par\par5.     print(member[count], member[count 1])\par\par6.     count  = 2\par\par7.\par\par8. 方法二：\par\par9.\par\par10. for each in range(len(member)):\par\par11.     if each%2http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html == 0:\par\par12.         print(member[each], member[each 1])\par\par复制代码\par\par0. 注意，这道题跟上节课的那道题有点儿不同，回答完请上机实验或参考答案。\par\par1. &gt;&gt;&gt; old = [1, 2, 3, 4, 5] 2. &gt;&gt;&gt; new = old\par\par3. &gt;&gt;&gt; old = [6]\par\par4. &gt;&gt;&gt; print(new)\par\par复制代码\par\par如果不上机操作，你觉得会打印什么内容？\par\par \par\par第十二课\par\par1. 请问如何将下边这个列表的'小甲鱼'修改为'小鱿鱼'？\par\par1. list1 = [1, [1, 2, ['小甲鱼']], 3, 5, 8, 13, 18]\par\par复制代码\par\par \par\par2. 要对一个列表进行顺序排序，请问使用什么方法？\par\par \par\par3. 要对一个列表进行逆序排序，请问使用什么方法？\par\par \par\par4. 列表还有两个内置方法没给大家介绍，不过聪明的你应该可以自己摸索使用的门道吧：copy() 和 clear()\par\par \par\par5. 你有听说过列表推导式或列表解析吗？\par\par \par\par没听过？！没关系，我们现场来学习一下吧，看表达式：\par\par1. &gt;&gt;&gt; [ i*i for i in range(10) ]\par\par复制代码\par\par
+你觉得会打印什么内容？\par\par1. &gt;&gt;&gt; [i*i for i in range(10)]\par\par2. [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]\par\par复制代码\par\par居然分别打印了0到9各个数的平方，然后还放在列表里边了有木有？！\par\par列表推导式（List comprehensions）也叫列表解析，灵感取自函数式编程语言http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html Haskell。Ta 是一个非常有用和灵活的工具，可以用来动态的创建列表，语法如：\par\par[有关A的表达式 for A in B]\par\par例如\par\par1. &gt;&gt;&gt; list1 = [x**2 for x in range(10)]\par\par2. &gt;&gt;&gt; list1\par\par3. [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]\par\par复制代码 相当于\par\par1. list1 = []\par\par2. for x in range(10):\par\par3.     list1.append(x**2)\par\par复制代码\par\par \par\par问题：请先在 IDLE 中获得下边列表的结果，并按照上方例子把列表推导式还原出来。\par\par1. &gt;&gt;&gt; list1 = [(x, y) for x in range(10) for y in range(10) if x%2==0 if y%2!=0] 复制代码\par\par \par\par6. 活学活用：请使用列表推导式补充被小甲鱼不小心涂掉的部分\par\par \par\par
+ \par\par7. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\par\par \par\par测试题答案：\par\par本帖隐藏的内容\par\par0. 注意，这道题跟上节课的那道题有点儿不同，回答完请上机实验或参考答案。\par\par
+1. &gt;&gt;&gt; old = [1, 2, 3, 4, 5]\par\par2. &gt;&gt;&gt; new = old\par\par3. &gt;&gt;&gt; old = [6]\par\par4. &gt;&gt;&gt; print(new)\par\par复制代码\par\par \par\par会打印：[1, 2, 3, 4, 5]\par\par \par\par如有不理解的朋友请看上一讲课http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html后作业的详细答案。\par\par \par\par1. 请问如何将下边这个列表的'小甲鱼'修改为'小鱿鱼'？\par\par1. list1 = [1, [1, 2, ['小甲鱼']], 3, 5, 8, 13, 18]\par\par2. list1[1][2][0] = '小鱿鱼'\par\par复制代码\par\par \par\par2. 要对一个列表进行顺序排序，请问使用什么方法？\par\par1. &gt;&gt;&gt; 列表名.sort()\par\par复制代码\par\par \par\par3. 要对一个列表进行逆序排序，请问使用什么方法？\par\par1. &gt;&gt;&gt; 列表名.sort()\par\par2. &gt;&gt;&gt; 列表名.reverse()\par\par复制代码\par\par或者\par\par1. &gt;&gt;&gt; 列表名.sort(reverse=True)\par\par复制代码\par\par \par\par4. 列表还有两个内置方法没给大家介绍，不过聪明的你应该可以自己摸索使用的门道吧：copy() 和 clear()\par\par \par\parcopy() 方法跟使用切片拷贝是一样的：\par\par1. &gt;&gt;&gt; list2 = list1.copy()\par\par2. &gt;&gt;&gt; list2\par\par3. [1, [1, 2, ['小甲鱼']], 3, 5, 8, 13, 18]\par\par复制代码\par\par
+ \par\parclear() 方法用于清空列表的元素，但要注意，清空完后列表仍然还在哦，只是变成一个空列表。\par\par1. &gt;&gt;&gt; list2.clear()\par\par2. &gt;&gt;&gt; list2\par\par3. []\par\par复制代码\par\par \par\par5. 问题：请先在 IDLE 中获得下边列表的结果，并按照上方例子把列表推导式还原出来。\par\par1. &gt;&gt;&gt; list1 = [(x, y) http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlfor x in range(10) for y in range(10) if x%2==0 if y%2!=0] 复制代码\par\par1. list1 = []\par\par2. for x in ragne(10):\par\par3.     for y in range(10):\par\par4.         if x%2 == 0:\par\par5.             if y%2 != 0:\par\par6.                 list1.append((x, y))\par\par复制代码\par\par \par\par6. 活学活用：请使用列表推导式补充被小甲鱼不小心涂掉的部分\par\par \par\par1. &gt;&gt;&gt; list3 = [name   '：'   slogan[2:] for slogan in list1 for name in list2 if slogan[0] == name[0]]\par\par复制代码\par\par第十三课\par\par测试题：\par\par \par\par0. 请用一句话描述什么是列表？再用一句话描述什么是元组？\par\par \par\par1. 什么情况下你需要使用元组而不是列表？\par\par \par\par2. 当元组和列表掉下水，你会救谁？\par\par \par\par3. 请将下图左边列表的内置方法与右边的注释连线，并圈出元组可以使用的方法。\par\par \par\par
+ \par\par4. 创建一个元组，什么情况下逗号和小括号必须同时存在，缺一不可？\par\par5. x, y, z = 1, 2, 3 请问x, y, z是元组吗？\par\par \par\par6. 请写出以下情景中应该使用列表还是元组来保存数据：\par\par \par\par1) 游戏中角色的属性：\par\par \par\par2) 你的身份证信息：\par\par \par\par3) 论坛的会员：\par\par \par\par4) 团队合作开发程序，传递给一个你并不了解具体实现的函数的参数：\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar\par
+ \par\par5) 航天火箭各个组件的具体配置参数：\par\par \par\par6) NASA系统中记录已经发现的行星数据：\par\par7. 上节课我们通过课后作业的形式学习到了“列表推导式”，那请问如果我把中括号改为小括号，会不会得到“元组推导式”呢？\par\par \par\par8. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\par\par \par\par测试题答案：\par\par \par\par本帖隐藏的内容\par\par0. 请用一句话描述什么是列表？再用一句话描述什么是元组？\par\par \par\par列表：一个大仓库，你可以随时往里边添加和删除任何东西。\par\par \par\par元组：封闭的列表，一旦定义，就不可改变（不能添加、删除或修改）。\par\par \par\par1. 什么情况下你需要使用元组而不是列表？\par\par \par\par当我们希望内容不被轻易改写的时候，我们使用元组（把权力关进牢笼）。\par\par当我们需要频繁修改数据，我们使用列表。\par\par \par\par2. 当元组和列表掉下水，你会救谁？\par\par \par\par如果是我，我会救列表，因为列表提供了比元组更丰富的内置方法，这相当大的提高了编程的灵活性。\par\par \par\par回头来看下元组，元组固然安全，但元组一定创建就无法修改（除非通过新建一个元组来间接修改，但这就带来了消耗），而我们人是经常摇摆不定的，所以元组只有在特殊的情况才用到，平时还是列表用的多。\par\par \par\par综上所述，小甲鱼会救列表（列表是美眉）。\par\par \par\par
+ \par\par3. 请将左边列表的内置方法与右边的注释连线，并圈出元组可以使用的方法。\par\par \par\par看吧，元组果然比较悲剧吧，仅有两个方法元组可以使用，其他方法都不行，不信你试试？\par\par \par\par4. 创建一个元组，什么情况下逗号和小括号必须同时存在，缺一不可？\pahttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlr\par在拼接只有一个元素的元组的时候，例如我们课上举的例题：\par\par1. &gt;&gt;&gt; temp = (‘小甲鱼’, ‘黑夜’, ‘迷途’, ‘小布丁’)\par\par2. # 如果我想在 黑夜 和 迷途 之间插入 怡静 ，我们应该：\par\par
+3. &gt;&gt;&gt; temp = temp[:2]   (‘怡静’,)   temp[2:]\par\par复制代码\par\par \par\par5. x, y, z = 1, 2, 3 请问x, y, z是元组吗？\par\par \par\par所有的多对象的、逗号分隔的、没有明确用符号定义的这些集合默认的类型都是元组，自己在IDLE中键入以下代码，并体会一下：\par\par1. &gt;&gt;&gt; x, y, z = 1, 2, 3\par\par2.\par\par3. &gt;&gt;&gt; type(x)\par\par4.\par\par5. &gt;&gt;&gt; h = x, y, z\par\par6.\par\par7. &gt;&gt;&gt; type(h)\par\par复制代码\par\par \par\par6. 请写出以下情景中应该使用列表还是元组来保存数据：\par\par \par\par1) 游戏中角色的属性：列表\par\par \par\par2) 你的身份证信息：元组\par\par \par\par3) 论坛的会员：列表\par\par \par\par4) 团队合作开发程序，传递给一个你并不了解具体实现的函数的参数：元组\par\par5) 航天火箭各个组件的具体配置参数：元组\par\par \par\par6) NASA系统中记录已经发现的行星数据：列表\par\par \par\par7. 上节课我们通过课后作业的形式学习到了“列表推导式”，那请问如果我把中括号改为小括号，会不会得到“元组推导式”呢？自己动手试试看再看答案哦^_^\par\par \par\parPython3 木有“元组推导式”，为嘛？没必要丫，有了“列表推导式”已经足够了。\par\par那为什么“&gt;&gt;&gthttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html; tuple1 = (x**2 for x in range(10))”不会报错？\par\par
+ \par\par因为你误打误撞得到了一个生成器：\par\par1. &gt;&gt;&gt; type(tuple1)\par\par2. &lt;class 'generator'&gt;\par\par复制代码\par\par关于生成器的概念小甲鱼今后会细讲，你可以尝试这么去访问我们刚刚的生成器：\par\par \par\par# 注意，Python3 开始 next() 方法改为 __next__() 哦~\par\par1. &gt;&gt;&gt; tuple1.__next__()\par\par2. 0\par\par3. &gt;&gt;&gt; tuple1.__next__()\par\par4. 1\par\par5. &gt;&gt;&gt; tuple1.__next__()\par\par6. 4\par\par7. &gt;&gt;&gt; tuple1.__next__()\par\par8. 9\par\par9. &gt;&gt;&gt; tuple1.__next__()\par\par10. 16\par\par11. &gt;&gt;&gt; tuple1.__next__()\par\par12. 25\par\par13. &gt;&gt;&gt; tuple1.__next__()\par\par14. 36\par\par复制代码\par\par第14课\par\par \par\par测试题：\par\par \par\par0. 还记得如何定义一个跨越多行的字符串吗（请至少写出两种实现的方法）？\par\par1. 三引号字符串通常我们用于做什么使用？\par\par \par\par2. file1 = open('C:\windows\temp\readme.txt', 'r') 表示以只读方式打开“C:\windows\temp\readme.txt”这个文本文件，但事实上这个语句会报错，知道为什么吗？你会如何修改？\par\par \par\par3. 有字符串：str1 = 'http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html&lt;a href=&quot;http://www.wenkuxiazai.com/dvd&quot; target=&quot;_blank&quot;&gt;鱼C资源打包&lt;/a&gt;'，请问如何提取出子字符串：'http://www.wenkuxiazai.com'\par\par
+ \par\par4. 如果使用负数作为索引值进行分片操作，按照第三题的要求你能够正确目测出结果吗？\par\par \par\par5. 还是第三题那个字符串，请问下边语句会显示什么内容？\par\par1. &gt;&gt;&gt; str1[20:-36]\par\par复制代码\par\par \par\par6. 据说只有智商高于150的鱼油才能解开这个字符串（还原为有意义的字符串）：str1 = 'i2sl54ovvvb4e3bferi32s56h;$c43.sfc67o0cm99'\par\par \par\par动动手：\par\par \par\par0. 请写一个密码安全性检查的脚本代码：check.py\par\par# 密码安全性检查代码\par\par#\par\par# 低级密码要求：\par\par#   1. 密码由单纯的数字或字母组成\par\par#   2. 密码长度小于等于8位\par\par#\par\par# 中级密码要求：\par\par#   1. 密码必须由数字、字母或特殊字符（仅限：\par\par~!@#$%^&amp;*()_=-/,.?&lt;&gt;;:[]{}|\）任意两种组合\par\par#   2. 密码长度不能低于8位\par\par#\par\par# 高级密码要求：\par\par#   1. 密码必须由数字、字母及特殊字符（仅限：\par\par~!@#$%^&amp;*()_=-/,.?&lt;&gt;;:[]{}|\）三种组合\par\par#   2. 密码只能由字母开头\par\par#   3. 密码长度不能低于16位\par\par \par\par程序演示：\par\par \par\par
+ \par\par1. 请写下这一节课你学习到的内容：格式不限，回忆并http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html复述是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\par\par \par\par测试题答案：\par\par \par\par本帖隐藏的内容\par\par0. 还记得如何定义一个跨越多行的字符串吗（请至少写出两种实现的方法）？\par\par方法一：\par\par
+&gt;&gt;&gt; str1 = '''待我长发及腰，将军归来可好？\par\par此身君子意逍遥，怎料山河萧萧。\par\par天光乍破遇，暮雪白头老。\par\par寒剑默听奔雷，长枪独守空壕。\par\par醉卧沙场君莫笑，一夜吹彻画角。\par\par江南晚来客，红绳结发梢。'''\par\par \par\par方法二：\par\par \par\par&gt;&gt;&gt; str2 = '待卿长发及腰，我必凯旋回朝。\\par\par昔日纵马任逍遥，俱是少年英豪。\\par\par东都霞色好，西湖烟波渺。\\par\par执枪血战八方，誓守山河多娇。\\par\par应有得胜归来日，与卿共度良宵。\\par\par盼携手终老，愿与子同袍。'\par\par \par\par方法三：\par\par \par\par&gt;&gt;&gt; str3 = ('待卿长发及腰，我必凯旋回朝。'\par\par'昔日纵马任逍遥，俱是少年英豪。'\par\par'东都霞色好，西湖烟波渺。'\par\par'执枪血战八方，誓守山河多娇。'\par\par'应有得胜归来日，与卿共度良宵。'\par\par'盼携手终老，愿与子同袍。')\par\par \par\par1. 三引号字符串通常我们用于做什么使用？\par\par三引号字符串不赋值的情况下，通常当作跨行注释使用，例如：\par\par1. '''这是一个三引号字符串用于注释的例子，\par\par2. 例子虽然只是简简单单的一句话，\par\par3. 却毫无遮掩地体现了作者用情至深，\par\par4. 所谓爱至深处情至简！'''\par\par5.\par\par6. print(&quot;I love http://www.wenkuxiazai.com!&quohttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlt;)\par\par复制代码\par\par \par\par2. file1 = open('C:\windows\temp\readme.txt', 'r') 表示以只读方式打开“C:\windows\temp\readme.txt”这个文本文件，但事实上这个语句会报错，知道为什么吗？你会如何修改？\par\par
+会报错是因为在字符串中，我们约定“\t”和“\r”分别表示“横向制表符（TAB）”和“回车符”（详见：http://www.wenkuxiazai.com/thread-39140-1-1.html），因此并不会按照我们计划的路径去打开文件。\par\parPython 为我们铺好了解决的道路，只需要使用原始字符串操作符（R或r）即可：\par\par1. &gt;&gt;&gt; file1 = open(r'C:\windows\temp\readme.txt', 'r')\par\par复制代码\par\par \par\par3. 有字符串：str1 = '&lt;a href=&quot;http://www.wenkuxiazai.com/dvd&quot;\par\partarget=&quot;_blank&quot;&gt;鱼C资源打包&lt;/a&gt;'，请问如何提取出子字符串：\par\par'http://www.wenkuxiazai.com'\par\par1. &gt;&gt;&gt; str1[16:29]\par\par复制代码\par\par \par\par4. 如果使用负数作为索引值进行分片操作，按照第三题的要求你能够正确目测出结果吗？\par\par1. &gt;&gt;&gt; str1[-45:-32]\par\par复制代码\par\par \par\par5. 还是第三题那个字符串，请问下边语句会显示什么内容？\par\par1. &gt;&gt;&gt; str1[20:-36]\par\par复制代码\par\par'fishc'，加入了负数索引，问题变得有些复杂，不过自己多尝试几次就可以熟练掌握了。\par\par \par\par6. 据说只有智商高于150的鱼油才能解http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html开这个字符串（还原为有意义的字符串）：str1 = 'i2sl54ovvvb4e3bferi32s56h;$c43.sfc67o0cm99'\par\par1. &gt;&gt;&gt; str1[::3]\par\par复制代码\par\par \par\par动动手答案：\par\par \par\par本帖隐藏的内容\par\par0. 请写一个密码安全性检查的脚本代码：check.py\par\par
+1. # 密码安全性检查代码\par\par2. #\par\par3. # 低级密码要求：\par\par4. #   1. 密码由单纯的数字或字母组成\par\par5. #   2. 密码长度小于等于8位\par\par6. #\par\par7. # 中级密码要求：\par\par8. #   1. 密码必须由数字、字母或特殊字符（仅限：~!@#$%^&amp;*()_=-/,.?&lt;&gt;;:[]{}|\）\par\par任意两种组合\par\par9. #   2. 密码长度不能低于8位\par\par10. #\par\par11. # 高级密码要求：\par\par12. #   1. 密码必须由数字、字母及特殊字符（仅限：~!@#$%^&amp;*()_=-/,.?&lt;&gt;;:[]{}|\）\par\par三种组合\par\par13. #   2. 密码只能由字母开头\par\par14. #   3. 密码长度不能低于16位\par\par15.\par\par16. symbols = r'''`!@#$%^&amp;*()_ -=/*{}[]\|'&quot;;:/?,.&lt;&gt;'''\par\par17. chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'\par\par18. nums = '0123456789'\par\par19.\par\par20. passwd = input('请输入需要检查的密码组合：')\par\par21.\par\par22. # 判断长度\par\par23. length =http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html len(passwd)\par\par24.\par\par25. while (passwd.isspace() or length == 0) :\par\par26.     passwd = input(&quot;您输入的密码为空（或空格），请重新输入：&quot;)\par\par27.\par\par28. if length &lt;= 8:\par\par29.     flag_len = 1\par\par30. elif 8 &lt; length &lt; 16:\par\par
+31.     flag_len = 2\par\par32. else:\par\par33.     flag_len = 3\par\par34.\par\par35. flag_con = 0\par\par36.\par\par37. # 判断是否包含特殊字符\par\par38. for each in passwd:\par\par39.     if each in symbols:\par\par40.         flag_con  = 1\par\par41.         break\par\par42.\par\par43. # 判断是否包含字母\par\par44. for each in passwd:\par\par45.     if each in chars:\par\par46.         flag_con  = 1\par\par47.         break\par\par48.\par\par49. # 判断是否包含数字\par\par50. for each in passwd:\par\par51.     if each in nums:\par\par52.         flag_con  = 1\par\par53.         break\par\par54.\par\par55. # 打印结果\par\par56. while 1 :\par\par57.     print(&quot;您的密码安全级别评定为：&quot;, end='')\par\par5http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html8.     if flag_len == 1 or flag_con == 1 :\par\par59.         print(&quot;低&quot;)\par\par60.     elif flag_len == 2 or flag_con == 2 :\par\par61.         print(&quot;中&quot;)\par\par62.     else :\par\par
+63.         print(&quot;高&quot;)\par\par64.         print(&quot;请继续保持&quot;)\par\par65.         break\par\par66.\par\par67.     print(&quot;请按以下方式提升您的密码安全级别：\n\\par\par68.     \t1. 密码必须由数字、字母及特殊字符三种组合\n\\par\par69.     \t2. 密码只能由字母开头\n\\par\par70.     \t3. 密码长度不能低于16位'&quot;)\par\par71.     break\par\par复制代码\par\par \par\par0. 根据说明填写相应的字符串格式化符号\par\par[此处图片未下载成功]\par\par
+ \par\par1. 请问以下这行代码会打印什么内容？\par\par1. &gt;&gt;&gt; &quot;{{1}}&quot;.format(&quot;不打印&quot;, &quot;打印&quot;)\par\par复制代码\par\par \par\par2. 以下代码中，a, b, c是什么参数？\par\par1. &gt;&gt;&gt; &quot;{a} love {b}.{c}&quot;.format(a=&quot;I&quot;, b=&quot;FishC&quot;, c=&quot;com&quot;)\par\par
+2. 'I love http://www.wenkuxiazai.com'\par\par复制代码\par\par \par\par3. 以下http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html代码中，{0}, {1}, {2}是什么参数？\par\par1. &gt;&gt;&gt; &quot;{0} love {1}.{2}&quot;.format(&quot;I&quot;, &quot;FishC&quot;, &quot;com&quot;)\par\par2. 'I love http://www.wenkuxiazai.com'\par\par复制代码\par\par \par\par4. 如果想要显示Pi = 3.14，format前边的字符串应该怎么填写呢？\par\par1. ''.format('Pi = ', 3.1415) 复制代码\par\par \par\par动动手：\par\par \par\par0. 编写一个进制转换程序，程序演示如下（提示，十进制转换二进制可以用bin()这个BIF）：\par\par \par\par
+ \par\par1. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par第十五课\par\par \par\par[此处图片未下载成功]\par\par
+
+%d %o %x %X %f %e %E %g %G\par\par格式化整数 格式化无符号八进制数 格式化无符号十六进制数 格式化无符号十六进制数(大写) 格式化定点数，可指定小数点后的精度 用科学计数法格式化定点数 作用同%e,用科学计数法格式化定点数 根据值的大小决定使用%f 或者%e 作用同%g,根据值的大小决定使用%F 或者%E\par\par1. 请问以下这行代码会打印什么内容？
+1. &gt;&gt;&gt; &quot;{{1}}&quot;.format(&quot;不打印&quot;, &quot;打印&quot;) 2. '{1}' 复制代码\par\par2. 以下代码中，a, b, c 是什么参数？
+1. &gt;&gt;&gt; &quot;{a} love {b}.{c}&quot;.format(a=&quot;I&quot;, b=&quot;FishC&quot;, c=&quot;com&quot;) 2. 'I love hthttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmltp://www.wenkuxiazai.com' 复制代码\par\par关键字参数\par\par3. 以下代码中，{0}, {1}, {2}是什么参数？
+1. &gt;&gt;&gt; &quot;{0} love {1}.{2}&quot;.format(&quot;I&quot;, &quot;FishC&quot;, &quot;com&quot;) 2. 'I love http://www.wenkuxiazai.com' 复制代码\par\par位置参数\par\par4. 如果想要显示 Pi = 3.14,format 前边的字符串应该怎么填写呢？
+1. &gt;&gt;&gt; '{0}{1:.2f}'.format('Pi = ', 3.1415) 2. 'Pi = 3.14' 复制代码\par\par[此处图片未下载成功]\par\par
+
+ \par\par动动手答案：\par\par本帖隐藏的内容\par\par0. 编写一个进制转换程序\par\par1. q = True\par\par2. while q:\par\par3.     num = input('请输入一个整数(输入Q结束程序)：')\par\par4.     if num != 'Q':\par\par5.         num = int(num)\par\par6.         print('十进制 -&gt; 十六进制 : %d -&gt; 0x%x' % (num, num))\par\par7.         print('十进制 -&gt; 八进制 : %d -&gt; 0o%o' % (num, num))\par\par8.         print('十进制 -&gt; 二进制 : %d -&gt; ' % num, bin(num))\par\par9.     else:\par\par10.         q = False\par\par复制代码\par\par \par\par第十六课\par\par《零基础入门学习Python》视频下载地址：传送门\par\par \par\par测试题：\par\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar \par\par0. 我们根据列表、元祖和字符串的共同特点，把它们三统称为什么？\par\par \par\par1. 请问分别使用什么BIF，可以把一个可迭代对象转换为列表、元祖和字符串？\par\par2. 你还能复述出“迭代”的概念吗？\par\par \par\par3. 你认为调用 max('I love http://www.wenkuxiazai.com') 会返回什么值？为什么？\par\par \par\par4. 哎呀呀，现在的小屁孩太调皮了，邻居家的孩子淘气，把小甲鱼刚写好的代码画了个图案，麻烦各位鱼油恢复下啊，另外这家伙画的是神马吗？怎么那么眼熟啊！？？\par\par
+ \par\par动动手：\par\par \par\par0. 猜想一下 min() 这个BIF的实现过程\par\par \par\par1. 视频中我们说 sum() 这个BIF有个缺陷，就是如果参数里有字符串类型的话就会报错，请写出一个新的实现过程，自动“无视”参数里的字符串并返回正确的计算结果\par\par \par\par2. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par
+回复您的答案即可查看参考答案！\par\par \par\par测试题答案：\par\par \par\par本帖隐藏的内容\par\par0. 我们根据列表、元祖和字符串的共同特点，把它们三统称为什么？\par\par \par\par序列，因为他们有以下共同点：\par\par \par\par1）都可以通过索引得到每一个元素\par\par2）默认索引值总是从0开始（当然灵活的Python还支持负数索引）\par\par3）可以通过分片的方法得到一个范围内的元素的集合\par\par4）有很多共同的操作符（重复操作符、拼接操作符、成员关系操作符）\par\par \par\par1. 请问分别使用什么BIF，可以把一个可迭代对象转换为列表、元祖和字符串？\par\parlist([iterable]) 把可迭代对象转换为列表\par\par \par\partuple([iterable]) 把可迭http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html代对象转换为元祖\par\par \par\parstr(obj)  把对象转换为字符串\par\par \par\par例如：\par\par1. &gt;&gt;&gt; temp = 'I love http://www.wenkuxiazai.com!'\par\par2. &gt;&gt;&gt; list(temp)\par\par3. ['I', ' ', 'l', 'o', 'v', 'e', ' ', 'F', 'i', 's', 'h', 'C', '.', 'c', 'o',\par\par'm', '!']\par\par复制代码\par\par \par\par2. 你还能复述出“迭代”的概念吗？\par\par \par\par所谓迭代，是重复反馈过程的活动，其目的通常是为了接近并到达所需的目标或结果。每一次对过程的重复被称为一次“迭代”，而每一次迭代得到的结果会被用来作为下一次迭代的初始值。\par\par \par\par3. 你认为调用 max('I love http://www.wenkuxiazai.com') 会返回什么值？为什么？\par\par \par\par
+会返回：'v'，因为字符串在计算机中是以ASCII码的形式存储（ASCII对照表：\par\par），参数中ASCII码值最大的是'v'对应的118。\par\par \par\par4. 哎呀呀，现在的小屁孩太调皮了，邻居家的孩子淘气，把小甲鱼刚写好的代码画了个图案，麻烦各位鱼油恢复下啊，另外这家伙画的是神马吗？怎么那么眼熟啊！？？\par\par1. name = input('请输入待查找的用户名：')\par\par2. score = [['迷途', 85], ['黑夜', 80], ['小布丁', 65], ['福禄娃娃', 95], ['\par\par怡静', 90]]\par\par3. IsFind = False\par\par4.\par\par5. for each in score:\par\par6.     if name in each:\par\par7.         print(name   '的得分http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html是：', each[1])\par\par8.         IsFind = True\par\par9.         break\par\par10.\par\par11. if IsFind == False:\par\par12.     print('查找的数据不存在！')\par\par复制代码\par\par \par\par动动手答案：\par\par \par\par本帖隐藏的内容\par\par0. 猜想一下 min() 这个BIF的实现过程\par\par1. def min(x):\par\par2.     least = x[0]\par\par3.\par\par4.     for each in x:\par\par5.         if each &lt; least:\par\par6.             least = each\par\par7.\par\par8.     return least\par\par
+9.\par\par10. print(min('123456789'))\par\par复制代码\par\par注：关于函数的定义和使用在下一讲的课程中讲解，目前只需要理解该BIF实现的原理即可。\par\par \par\par1. 视频中我们说 sum() 这个BIF有个缺陷，就是如果参数里有字符串类型的话就会报错，请写出一个新的实现过程，自动“无视”参数里的字符串并返回正确的计算结果\par\par1. def sum(x):\par\par2.     result = 0\par\par3.\par\par4.     for each in x:\par\par5.         if (type(each) == int) or (type(each) == float):\par\par6.             result  = each\par\par7.         else:\par\par8.             continue\par\par9.\par\par10.     return result\par\par11.\parhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html\par12. print(sum([1, 2.1, 2.3, 'a', '1', True]))\par\par复制代码\par\par \par\par2. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！ 第十七课\par\par \par\par0. 你有听说过DRY吗？\par\par \par\par1. 都是重复一段代码，为什么我要使用函数（而不使用简单的拷贝黏贴）呢？\par\par \par\par2. 函数可以有多个参数吗？\par\par \par\par3. 创建函数使用什么关键字，要注意什么？\par\par \par\par4. 请问这个函数有多少个参数？\par\par1. def MyFun((x, y), (a, b)):\par\par2.     return x * y - a * b\par\par复制代码\par\par
+ \par\par5. 请问调用以下这个函数会打印什么内容？\par\par1. &gt;&gt;&gt; def hello():\par\par2.         print('Hello World!')\par\par3.         return\par\par4.         print('Welcome To http://www.wenkuxiazai.com!')\par\par复制代码\par\par \par\par动动手：\par\par \par\par0. 编写一个函数power()模拟内建函数pow()，即power(x, y)为计算并返回x的y次幂的值。\par\par \par\par1. 编写一个函数，利用欧几里得算法（脑补链接）求最大公约数，例如gcd(x, y)返回值为参数x和参数y的最大公约数。\par\par \par\par2. 编写一个将十进制转换为二进制的函数，要求采用“除2取余”（）的方式，结果与调用bin()一样返回字符串形式。\par\par \par\par3. 请写下这一节课你学习到的内容：格式不限，回忆并复述是加强记忆的好方式！\par\par \par\par回复您的答案即可查看参考答案！\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar\par测试题答案：\par\par \par\par本帖隐藏的内容\par\par0. 你有听说过DRY吗？\par\par \par\parDRY是程序员们公认的指导原则：Don't Repeat Yourself.\par\par快快武装你的思维吧，拿起函数，不要再去重复拷贝一段代码了！\par\par \par\par1. 都是重复一段代码，为什么我要使用函数（而不使用简单的拷贝黏贴）呢？\par\par使用函数:\par\par
+0) 可以降低代码量（调用函数只需要一行，而拷贝黏贴需要N倍代码）\par\par1) 可以降低维护成本（函数只需修改def部分内容，而拷贝黏贴则需要每一处出现的地方都作修改）\par\par2) 使序更容易阅读（没有人会希望看到一个程序重复一万行“I love http://www.wenkuxiazai.com”）\par\par2. 函数可以有多个参数吗？\par\par \par\par可以的，理论上你想要有多少个就可以有多少个，只不过如果函数的参数过多，在调用的时候出错的机率就会大大提高，因而写这个函数的程序员也会被相应的问候祖宗，所以，尽量精简吧，在Python的世界里，精简才是王道！\par\par \par\par3. 创建函数使用什么关键字，要注意什么？\par\par \par\par使用“def”关键字，要注意函数名后边要加上小括号“()”，然后小括号后边是冒号“:”，然后缩进部分均属于函数体的内容，例如：\par\par1. def MyFun():\par\par2.     # 我是函数体\par\par3.     # 我也是函数体\par\par4.     # 我们都属于函数MyFun()\par\par5.\par\par6. # 噢，我不属于MyFun()函数的了\par\par复制代码\par\par \par\par4. 请问这个函数有多少个参数？\par\par1. def MyFun((x, y), (a, b)):\par\par2.     return x * y - a * b\par\par复制代码\par\par \par\par如果你回答两个，那http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html么恭喜你错啦，答案是0，因为类似于这样的写法是错误的！\par\par我们分析下，函数的参数需要的是变量，而这里你试图用“元祖”的形式来传递是不可行的。\par\par我想你如果这么写，你应该是要表达这么个意思：\par\par1. &gt;&gt;&gt; def MyFun(x, y):\par\par2.         return x[0] * x[1] - y[0] * y[1]\par\par3.\par\par4. &gt;&gt;&gt; MyFun((3, 4), (1, 2))\par\par5. 10\par\par
+复制代码\par\par \par\par5. 请问调用以下这个函数会打印什么内容？\par\par1. &gt;&gt;&gt; def hello():\par\par2.         print('Hello World!')\par\par3.         return\par\par4.         print('Welcome To http://www.wenkuxiazai.com!')\par\par复制代码\par\par \par\par会打印：\par\par1. &gt;&gt;&gt; hello()\par\par2. Hello World!\par\par复制代码\par\par \par\par因为当Python执行到return语句的时候，Python认为函数到此结束，需要返回了（尽管没有任何返回值）。\par\par \par\par动动手答案：\par\par \par\par本帖隐藏的内容\par\par0. 编写一个函数power()模拟内建函数pow()，即power(x, y)为计算并返回x的y次幂的值。\par\par1. def power(x, y):\par\par2.     result = 1\par\par3.\par\par4.     for i in range(y):\par\par5.         result *= x\par\par6.\par\par7.     return result\par\par8.\phttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlar\par9. print(power(2, 3))\par\par复制代码\par\par \par\par
+1. 编写一个函数，利用欧几里得算法（）求最大公约数，例如gcd(x, y)返回值为参数x和参数y的最大公约数。\par\par1. def gcd(x, y):\par\par2.     while y:\par\par3.         t = x % y\par\par4.         x = y\par\par5.         y = t\par\par6.\par\par7.     return x\par\par8.\par\par9. print(gcd(4, 6))\par\par复制代码\par\par \par\par2. 编写一个将十进制转换为二进制的函数，要求采用“除2取余”（）的方式，结果与调用bin()一样返回字符串形式。\par\par1. def Dec2Bin(dec):\par\par2.     temp = []\par\par3.     result = ''\par\par4.\par\par5.     while dec:\par\par6.         quo = dec % 2\par\par7.         dec = dec // 2\par\par8.         temp.append(quo)\par\par9.\par\par10.     while temp:\par\par11.         result  = str(temp.pop())\par\par12.\par\par13.     return result\par\par14.\par\par15. print(Dec2Bin(62))\par\par \par\par第十八课\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par
+第19\par\par[此处图片未下载成功]\par\par
+课\par\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar
+[此处图片未下载成功]\par\par
+ \par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par
+第20\par\par[此处图片未下载成功]\par\par
+课\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第21课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第22课\par\par[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第23、24课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\pahttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlr
+ \par\par第25课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第26课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第27课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第28课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第29课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\parhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第30课\par\par[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第31课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第32课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+第33课\par\par[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第34课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第35课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第36课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\parhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第37课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第38课\par\par[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第39课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par
+第40\par\par[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第41课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第42课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第43\par\par[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+ \parhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html\par第44课\par\par[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第45课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第46课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\http://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.htmlpar
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par第47课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+第48课\par\par[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第49课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+ \par\par第50课\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\parhttp://www.wenkuxiazai.com/doc/e6b8c88ecc175527072208d7.html
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+
+[此处图片未下载成功]\par\par
+[此处图片未下载成功]\par\par
+ \par\par
+}{
+\rtlch\fcs1 \af0 \ltrch\fcs0 \fs24\loch\af13\insrsid6493368\charrsid15866361 
+\par }\pard \ltrpar\qj \li0\ri0\sl180\slmult0\nowidctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid6493368 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid6493368 
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f13\fs28\insrsid15817367\charrsid15817367 \loch\af13\hich\af13\dbch\f13 \'ce\'c4\'bf\'e2\'cf\'c2\'d4\'d8\'cd\'f8\'ca\'c7\'d7\'a8\'d2\'b5\'b5\'c4\'c3\'e2\'b7\'d1\'ce\'c4\'b5\'b5\'cb\'d1\'cb\'f7\'d3\'eb\'cf\'c2\'d4\'d8
+\'cd\'f8\'d5\'be\'a3\'ac\'cc\'e1\'b9\'a9\'d0\'d0\'d2\'b5\'d7\'ca\'c1\'cf\'a3\'ac\'bf\'bc\'ca\'d4\'d7\'ca\'c1\'cf\'a3\'ac\'bd\'cc\'d1\'a7\'bf\'ce\'bc\'fe\'a3\'ac\'d1\'a7\'ca\'f5\'c2\'db\'ce\'c4\'a3\'ac\'bc\'bc\'ca\'f5\'d7\'ca\'c1\'cf\'a3\'ac\'d1\'d0
+\'be\'bf\'b1\'a8\'b8\'e6\'a3\'ac\'b9\'a4\'d7\'f7\'b7\'b6\'ce\'c4\'a3\'ac\'d7\'ca\'b8\'f1\'bf\'bc\'ca\'d4\'a3\'ac}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f13\fs28\insrsid15817367\charrsid15817367 \hich\af13\dbch\af13\loch\f13 word}{\rtlch\fcs1 \af0\afs28 
+\ltrch\fcs0 \f13\fs28\insrsid15817367\charrsid15817367 \loch\af13\hich\af13\dbch\f13 \'ce\'c4\'b5\'b5\'a3\'ac\'d7\'a8\'d2\'b5\'ce\'c4\'cf\'d7\'a3\'ac\'d3\'a6\'d3\'c3\'ce\'c4\'ca\'e9\'a3\'ac\'d0\'d0\'d2\'b5\'c2\'db\'ce\'c4\'b5\'c8\'ce\'c4\'b5\'b5\'cb\'d1
+\'cb\'f7\'d3\'eb\'ce\'c4\'b5\'b5\'cf\'c2\'d4\'d8\'a3\'ac\'ca\'c7\'c4\'fa\'ce\'c4\'b5\'b5\'d0\'b4\'d7\'f7\'ba\'cd\'b2\'e9\'d5\'d2\'b2\'ce\'bf\'bc\loch\af13\hich\af13\dbch\f13 \'d7\'ca\'c1\'cf\'b5\'c4\'b1\'d8\'b1\'b8\'cd\'f8\'d5\'be\'a1\'a3}{\rtlch\fcs1 
+\af0\afs28 \ltrch\fcs0 \fs28\loch\af13\insrsid15817367 
+\par }{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f13\fs28\cf11\insrsid6493368\charrsid6493368 \loch\af13\hich\af13\dbch\f13 \'ce\'c4\'bf\'e2\'cf\'c2\'d4\'d8}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f13\fs28\cf11\insrsid6493368\charrsid6493368 
+\hich\af13\dbch\af13\loch\f13  }{\field\flddirty{\*\fldinst {\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f13\fs28\cf11\insrsid6493368\charrsid6493368 \hich\af13\dbch\af13\loch\f13  HYPERLINK "https://www.wenkuxiazai.com/" }{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 
+\fs28\cf11\loch\af13\insrsid10246904\charrsid6493368 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b5000000068007400740070003a002f002f007700770077002e00770065006e006b0075007800690061007a00610069002e0063006f006d002f000000795881f43b1d7f48af2c825dc485276300000000a5ab00000000
+00000000}}}{\fldrslt {\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \cs17\f13\fs28\ul\cf11\insrsid6493368\charrsid6493368 \hich\af13\dbch\af13\loch\f13 https://www.wenkuxiazai.com/}}}\sectd 
+\linex0\headery851\footery992\colsx425\endnhere\sectlinegrid312\sectspecifyl\sectrsid6493368\sftnbj {\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \fs28\cf11\loch\af13\insrsid6493368\charrsid6493368 
+\par }{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 \f13\fs28\cf11\insrsid6493368\charrsid6493368 \loch\af13\hich\af13\dbch\f13 \'c9\'cf\'d2\'da\'ce\'c4\'b5\'b5\'d7\'ca\'c1\'cf\'a3\'ac\'b5\'c8\'c4\'e3\'c0\'b4\'b7\'a2\'cf\'d6}{\rtlch\fcs1 \af0\afs28 \ltrch\fcs0 
+\fs28\cf11\loch\af13\insrsid15098623\charrsid6493368 
+\par }}

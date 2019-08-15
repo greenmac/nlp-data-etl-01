@@ -1,0 +1,567 @@
+一. 朴素??斯??原理知?
+
+?基?知?部分引用文章"机器??之朴素??斯(NB)分?算法与Python??"，也?烈推荐大家??博主moxigandashu的文章，?得很好。同?作者也?合概率??解，提升下自己?差的??。
+
+
+朴素??斯（Naive Bayesian）是基于??斯定理和特征?件?立假?的分?方法，它通?特征?算分?的概率，?取概率大的情?，是基于概率?的一种机器??分?（?督??）方法，被?泛?用于情感分??域的分?器。
+下面??回?下概率?知?：
+
+1.什么是基于概率?的方法？
+通?概率?衡量事件?生的可能性。概率?和???是??相反的概念，???是抽取部分?本???估算?体情?，而概率?是通??体情??估???事件或部分事情的?生情?。概率?需要已知?据去??未知的事件。
+例如，我?看到天气?云密布，??雷?并??狂?，在??的天气特征(F)下，我?推?下雨的概率比不下雨的概率大，也就是p(下雨)>p(不下雨)，所以??待?儿?下雨，?????上看?概率?行判?。而气象局通?多年?期?累的?据，???算，今天下雨的概率p(下雨)=85%、p(不下雨)=15%，同?的 p(下雨)>p(不下雨)，因此今天的天气??肯定??下雨。?是通?一定的方法?算概率?而?下雨事件?行判?。
+
+
+
+
+
+2.?件概率
+若Ω是全集，A、B是其中的事件（子集），P表示事件?生的概率，??件概率表示某?事件?生?另一?事件?生的概率。假?事件B?生后事件A?生的概率?：
+
+
+?P(A)>0，?有 P(AB) = P(B|A)P(A) = P(A|B)P(B)。
+?A、B、C?事件，且P(AB)>0，?有 P(ABC) = P(A)P(B|A)P(C|AB)。
+?在A和B是??相互?立的事件，其相交概率? P(A∩B) = P(A)P(B)。
+
+
+
+
+3.全概率公式
+?Ω???E的?本空?，A?E的事件，B1、B2、....、Bn?Ω的一?划分，且P(Bi)>0，其中i=1,2,...,n，?：
+
+
+
+P(A) = P(AB1)+P(AB2)+...+P(ABn)
+        = P(A|B1)P(B1)+P(A|B2)P(B2)+...+P(A|Bn)P(Bn)
+
+全概率公式主要用途在于它可以?一?复?的概率?算??，分解?若干???事件的概率?算??，最后?用概率的可加性求出最??果。
+示例：有一批同一型?的?品，已知其中由一厂生成的占30%，二厂生成的占50%，三?生成的占20%，又知?三?厂的?品次品概率分??2%、1%、1%，??批?品中任取一件是次品的概率是多少？
+
+
+?考百度文??料：https://wenku.baidu.com/view/05d0e30e856a561253d36fdb.html
+
+
+4.??斯公式
+?Ω???E的?本空?，A?E的事件，如果有k?互斥且有??事件，即B1、B2、....、Bk?Ω的一?划分，且P(B1)+P(B2)+...+P(Bk)=1，P(Bi)>0（i=1,2,...,k)，?：
+
+P(A)：事件A?生的概率；
+P(A∩B)：事件A和事件B同??生的概率；
+P(A|B)：事件A在??B?生的?件下?生的概率；
+意?：?在已知??A确?已??生，若要估?它是由原因Bi所?致的概率，?可用Bayes公式求出。
+
+
+5.先?概率和后?概率
+先?概率是由以往的?据分析得到的概率，泛指一?事物?生的概率，根据?史?料或主?判?未???所确定的概率。后?概率而是在得到信息之后再重新加以修正的概率，是某?特定?件下一?具体事物?生的概率。
+
+
+
+
+
+6.朴素??斯分?
+??斯分?器通???一??象?于某???的概率，再??其??，是基于??斯定理而构成出?的。在?理大?模?据集?，??斯分?器表?出?高的分?准确性。
+假?存在?种分?：
+  1) 如果p1(x,y)>p2(x,y)，那么分入??1
+  2) 如果p1(x,y)<p2(x,y)，那么分入??2
+引入??斯定理即?：
+
+
+其中，x、y表示特征?量，ci表示分?，p(ci|x,y)表示在特征?x,y的情?下分入??ci的概率，因此，?合?件概率和??斯定理有：
+  1) 如果p(c1|x,y)>p(c2,|x,y)，那么分????于??c1
+  2) 如果p(c1|x,y)<p(c2,|x,y)，那么分????于??c2
+
+??斯定理最大的好?是可以用已知的概率去?算未知的概率，而如果??是?了比?p(ci|x,y)和p(cj|x,y)的大小，只需要已知??概率即可，分母相同，比?p(x,y|ci)p(ci)和p(x,y|cj)p(cj)即可。
+
+
+
+7.示例?解
+假?存在14天的天气情?和是否能打网球，包括天气、气?、?度、?等，?在?出新的一天天气情?，需要判?我??一天可以打网球?？首先??出各种天气情?下打网球的概率，如下?所示。
+
+接下?是分析?程，其中包括打网球yse和不打网球no的?算方法。
+
+
+
+最后?算?果如下，不去打网球概率?79.5%。
+
+
+
+8.优缺?
+?督??，需要确定分?的目? 
+?缺失?据不敏感，在?据?少的情?下依然可以使用?方法
+可以?理多??? 的分???
+适用于??型?据 
+??入?据的形?比?敏感
+由于用先??据去??分?，因此存在?差
+
+
+
+
+
+
+
+
+二. naive_bayes用法及??案例
+
+
+scikit-learn机器??包提供了3?朴素??斯分?算法：
+
+GaussianNB(高斯朴素??斯)
+MultinomialNB(多?式朴素??斯)
+BernoulliNB(伯努利朴素??斯)
+
+1.高斯朴素??斯
+?用方法?：sklearn.naive_bayes.GaussianNB(priors=None)。
+下面?机生成六?坐??，其中x坐?和y坐?同?正???????2，x坐?和y坐?同?????????1。通?高斯朴素??斯分?分析的代?如下：
+# -*- coding: utf-8 -*-
+import numpy as np
+from sklearn.naive_bayes import GaussianNB
+X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
+Y = np.array([1, 1, 1, 2, 2, 2])
+clf = GaussianNB()
+clf.fit(X, Y)      
+pre = clf.predict(X)
+print u"?据集???果:", pre
+print clf.predict([[-0.8, -1]])
+ 
+clf_pf = GaussianNB()
+clf_pf.partial_fit(X, Y, np.unique(Y)) #增加一部分?本
+print clf_pf.predict([[-0.8, -1]])
+?出如下?所示，可以看到[-0.8, -1]???果?1?，即x坐?和y坐?同???。
+
+
+
+
+2.多?式朴素??斯
+多?式朴素??斯：sklearn.naive_bayes.MultinomialNB(alpha=1.0, fit_prior=True, class_prior=None)主要用于离散特征分?，例如文本分?????，以出?的次?作?特征值。
+???明：alpha?可??，默?1.0，添加拉普拉修/Lidstone平滑??；fit_prior默?True，表示是否??先?概率，???False表示所有???具有相同的先?概率；class_prior?似??，??大小?(n_classes,)，默?None，?先?概率。
+
+
+
+3.伯努利朴素??斯
+伯努利朴素??斯：sklearn.naive_bayes.BernoulliNB(alpha=1.0, binarize=0.0, fit_prior=True,class_prior=None)。?似于多?式朴素??斯，也主要用于离散特征分?，和MultinomialNB的??是：MultinomialNB以出?的次??特征值，BernoulliNB?二?制或布?型特性
+
+
+
+下面是朴素??斯算法常?的?性和方法。
+1) class_prior_?性
+?察各?????的先?概率，主要是class_prior_?性，返回??。代?如下：
+
+print clf.class_prior_
+#[ 0.5  0.5]
+2) class_count_?性
+?取各?????的???本?，代?如下：
+
+print clf.class_count_
+#[ 3.  3.]
+3) theta_?性
+?取各????在各?特征上的均值，代?如下：
+
+print clf.theta_
+#[[-2.         -1.33333333]
+# [ 2.          1.33333333]]
+4) sigma_?性
+?取各????在各?特征上的方差，代?如下：
+
+print clf.theta_
+#[[-2.         -1.33333333]
+# [ 2.          1.33333333]]
+5) fit(X, y, sample_weight=None)
+???本，X表示特征向量，y???，sample_weight表各?本?重??。
+
+#?置?本不同的?重
+clf.fit(X,Y,np.array([0.05,0.05,0.1,0.1,0.1,0.2,0.2,0.2]))
+print clf  
+print clf.theta_  
+print clf.sigma_ 
+?出?果如下所示：
+
+GaussianNB()
+[[-2.25 -1.5 ]
+ [ 2.25  1.5 ]]
+[[ 0.6875  0.25  ]
+ [ 0.6875  0.25  ]]
+6) partial_fit(X, y, classes=None, sample_weight=None)
+增量式??，????据集?据量非常大，不能一次性全部?入?存?，可以??据集划分若干份，重复?用partial_fit在???模型??，在第一次?用partial_fit函??，必?制定classes??，在?后的?用可以忽略。
+
+import numpy as np  
+from sklearn.naive_bayes import GaussianNB  
+X = np.array([[-1,-1], [-2,-2], [-3,-3], [-4,-4], [-5,-5], 
+              [1,1], [2,2], [3,3]])  
+y = np.array([1, 1, 1, 1, 1, 2, 2, 2])  
+clf = GaussianNB()  
+clf.partial_fit(X,y,classes=[1,2],
+                sample_weight=np.array([0.05,0.05,0.1,0.1,0.1,0.2,0.2,0.2]))  
+print clf.class_prior_ 
+print clf.predict([[-6,-6],[4,5],[2,5]])  
+print clf.predict_proba([[-6,-6],[4,5],[2,5]])
+?出?果如下所示：
+
+[ 0.4  0.6]
+[1 2 2]
+[[  1.00000000e+00   4.21207358e-40]
+ [  1.12585521e-12   1.00000000e+00]
+ [  8.73474886e-11   1.00000000e+00]]
+可以看到?[-6,-6]???果?1，[4,5]???果?2，[2,5]???果?2。同?，predict_proba(X)?出???本在各??????概率值。
+
+7) score(X, y, sample_weight=None)
+返回???本映射到指定???上的得分或准确率。
+
+pre = clf.predict([[-6,-6],[4,5],[2,5]])  
+print clf.score([[-6,-6],[4,5],[2,5]],pre)
+#1.0
+最后?出一?高斯朴素??斯算法分析小??据集案例，代?如下：
+
+
+# -*- coding: utf-8 -*-
+#第一部分 ?入?据集
+import pandas as pd
+X = pd.read_csv("seed_x.csv")
+Y = pd.read_csv("seed_y.csv")
+print X
+print Y
+ 
+#第二部分 ?入模型
+from sklearn.naive_bayes import GaussianNB  
+clf = GaussianNB()
+clf.fit(X, Y)      
+pre = clf.predict(X)
+print u"?据集???果:", pre
+ 
+#第三部分 降??理
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+newData = pca.fit_transform(X)
+print newData[:4]
+ 
+#第四部分 ?制?形
+import matplotlib.pyplot as plt
+L1 = [n[0] for n in newData]
+L2 = [n[1] for n in newData]
+plt.scatter(L1,L2,c=pre,s=200)
+plt.show()
+?出如下?所示：
+
+
+
+
+最后??据集?行?估，主要?用sklearn.metrics?中classification_report函???的，代?如下：
+
+from sklearn.metrics import classification_report
+print(classification_report(Y, pre))
+?行?果如下所示，准确率、召回率和F特征?91%。
+
+
+
+
+
+?充下Sklearn机器??包常用的?展?。
+
+#?督??
+sklearn.neighbors #近?算法
+sklearn.svm #支持向量机
+sklearn.kernel_ridge #核-岭回?
+sklearn.discriminant_analysis #判?分析
+sklearn.linear_model #???性模型
+sklearn.ensemble #集成??
+sklearn.tree #?策?
+sklearn.naive_bayes #朴素??斯
+sklearn.cross_decomposition #交叉分解
+sklearn.gaussian_process #高斯?程
+sklearn.neural_network #神?网?
+sklearn.calibration #概率校准
+sklearn.isotonic #保守回?
+sklearn.feature_selection #特征??
+sklearn.multiclass #多?多??算法
+ 
+#??督??
+sklearn.decomposition #矩?因子分解sklearn.cluster # 聚?
+sklearn.manifold # 流形??
+sklearn.mixture # 高斯混合模型
+sklearn.neural_network # ??督神?网?
+sklearn.covariance # ?方差估?
+ 
+#?据??
+sklearn.feature_extraction # 特征提取sklearn.feature_selection # 特征??
+sklearn.preprocessing # ??理
+sklearn.random_projection # ?机投影
+sklearn.kernel_approximation # 核逼近
+
+
+
+
+
+
+
+三. 中文文本?据集??理
+
+假??在需要判?一封?件是不是垃圾?件，其步?如下：
+
+?据集拆分成??，中文分?技?
+?算句子中?共多少??，确定?向量大小
+句子中的????成向量，BagofWordsVec
+?算P(Ci)，P(Ci|w)=P(w|Ci)P(Ci)/P(w)，表示w特征出??，??本被分?Ci?的?件概率
+判?P(w[i]C[0])和P(w[i]C[1])概率大小，??集合中概率高的?分???
+下面?解一?具体的?例。
+
+
+1.?据集?取
+
+假?存在如下所示10?Python?籍???价信息，每??价信息??一??果（好?和差?），如下?所示：
+
+
+
+
+?据存?至CSV文件中，如下?所示。
+
+
+
+
+下面采用pandas?展包?取?据集。代?如下所示：
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+ 
+data = pd.read_csv("data.csv",encoding='gbk')
+print data
+ 
+#取表中的第1列的所有值
+print u"?取第一列?容"
+col = data.iloc[:,0]  
+#取表中所有值  
+arrs = col.values
+for a in arrs:
+    print a
+?出?果如下?所示，同?可以通?data.iloc[:,0]?取第一列的?容。
+
+
+
+
+
+
+2.中文分?及??停用?
+接下?作者采用jieba工具?行分?，并定?了停用?表，即：
+    stopwords = {}.fromkeys(['，', '。', '！', '?', '我', '非常'])
+完整代?如下所示：
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import jieba
+ 
+data = pd.read_csv("data.csv",encoding='gbk')
+print data
+ 
+#取表中的第1列的所有值
+print u"?取第一列?容"
+col = data.iloc[:,0]  
+#取表中所有值  
+arrs = col.values
+#去除停用?  
+stopwords = {}.fromkeys(['，', '。', '！', '?', '我', '非常'])
+ 
+print u"\n中文分?后?果:"
+for a in arrs:
+    #print a
+    seglist = jieba.cut(a,cut_all=False)     #精确模式  
+    final = ''
+    for seg in seglist:
+        seg = seg.encode('utf-8')
+        if seg not in stopwords: #不是停用?的保留
+            final += seg
+    seg_list = jieba.cut(final, cut_all=False) 
+    output = ' '.join(list(seg_list))         #空格拼接
+    print output
+然后分?后的?据如下所示，可以看到??符?及"?"、"我"等?已???。
+
+
+
+
+
+
+3.????
+接下?需要?分?后的?句???向量的形式，?里使用CountVectorizer???????。如果需要???TF-IDF值可以使用TfidfTransformer?。????完整代?如下所示：
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import jieba
+ 
+data = pd.read_csv("data.csv",encoding='gbk')
+print data
+ 
+#取表中的第1列的所有值
+print u"?取第一列?容"
+col = data.iloc[:,0]  
+#取表中所有值  
+arrs = col.values
+#去除停用?  
+stopwords = {}.fromkeys(['，', '。', '！', '?', '我', '非常'])
+ 
+print u"\n中文分?后?果:"
+corpus = []
+for a in arrs:
+    #print a
+    seglist = jieba.cut(a,cut_all=False)     #精确模式  
+    final = ''
+    for seg in seglist:
+        seg = seg.encode('utf-8')
+        if seg not in stopwords: #不是停用?的保留
+            final += seg
+    seg_list = jieba.cut(final, cut_all=False) 
+    output = ' '.join(list(seg_list))         #空格拼接
+    print output
+    corpus.append(output)
+ 
+#?算??
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
+  
+vectorizer = CountVectorizer() #?文本中的???????矩?  
+X = vectorizer.fit_transform(corpus) #?算???出?的次?    
+word = vectorizer.get_feature_names() #?取?袋中所有文本???  
+for w in word: #查看???果
+    print w,
+print ''
+print X.toarray()  
+?出?果如下所示，包括特征?及??的10行?据的向量，?就?中文文本?据集???了??向量的形式，接下?就是??的?据分析了。
+
+
+
+
+
+如下所示得到一???矩?，每行?据集??一?分???，可以??新的文??于哪一?。
+
+
+
+
+TF-IDF相?知?推荐我的文章： [python] 使用scikit-learn工具?算文本TF-IDF值
+
+
+
+
+
+
+
+
+四. 朴素??斯中文文本?情分析
+
+
+最后?出朴素??斯分?算法分析中文文本?据集的完整代?。
+
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import jieba
+ 
+#http://blog.csdn.net/eastmount/article/details/50323063
+#http://blog.csdn.net/eastmount/article/details/50256163
+#http://blog.csdn.net/lsldd/article/details/41542107
+ 
+####################################
+#         第一步 ?取?据及分?
+#
+data = pd.read_csv("data.csv",encoding='gbk')
+print data
+ 
+#取表中的第1列的所有值
+print u"?取第一列?容"
+col = data.iloc[:,0]  
+#取表中所有值  
+arrs = col.values
+ 
+#去除停用?  
+stopwords = {}.fromkeys(['，', '。', '！', '?', '我', '非常'])
+ 
+print u"\n中文分?后?果:"
+corpus = []
+for a in arrs:
+    #print a
+    seglist = jieba.cut(a,cut_all=False)     #精确模式  
+    final = ''
+    for seg in seglist:
+        seg = seg.encode('utf-8')
+        if seg not in stopwords: #不是停用?的保留
+            final += seg
+    seg_list = jieba.cut(final, cut_all=False) 
+    output = ' '.join(list(seg_list))         #空格拼接
+    print output
+    corpus.append(output)
+ 
+####################################
+#         第二步 ?算??
+#
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
+  
+vectorizer = CountVectorizer() #?文本中的???????矩?  
+X = vectorizer.fit_transform(corpus) #?算???出?的次?    
+word = vectorizer.get_feature_names() #?取?袋中所有文本???  
+for w in word: #查看???果
+    print w,
+print ''
+print X.toarray()  
+ 
+ 
+####################################
+#         第三步 ?据分析
+#
+from sklearn.naive_bayes import MultinomialNB  
+from sklearn.metrics import precision_recall_curve  
+from sklearn.metrics import classification_report
+ 
+#使用前8行?据集?行??，最后?行?据集用于??
+print u"\n\n?据分析:"
+X = X.toarray()
+x_train = X[:8]
+x_test = X[8:]
+#1表示好? 0表示差?
+y_train = [1,1,0,0,1,0,0,1]
+y_test = [1,0]
+ 
+#?用MultinomialNB分?器  
+clf = MultinomialNB().fit(x_train, y_train)
+pre = clf.predict(x_test)
+print u"???果:",pre
+print u"真??果:",y_test
+ 
+from sklearn.metrics import classification_report
+print(classification_report(y_test, pre))
+?出?果如下所示，可以看到??的??值都是正确的。即"一本优秀的?籍，值得?者?有。"???果?好?（??1），"很差，不建??，准?退?。"?果?差?（??0）。
+
+?据分析:
+???果: [1 0]
+真??果: [1, 0]
+             precision    recall  f1-score   support
+ 
+          0       1.00      1.00      1.00         1
+          1       1.00      1.00      1.00         1
+ 
+avg / total       1.00      1.00      1.00         2
+但存在一???，由于?据量?小不具?代表性，而真?分析中?使用海量?据?行?情分析，???果肯定?不是100%的正确，但是需要????果?可能的好。最后?充一段降??制?形的代?，如下：
+
+#降??制?形
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+newData = pca.fit_transform(X)
+print newData
+ 
+pre = clf.predict(X)
+Y = [1,1,0,0,1,0,0,1,1,0]
+import matplotlib.pyplot as plt
+L1 = [n[0] for n in newData]
+L2 = [n[1] for n in newData]
+plt.scatter(L1,L2,c=pre,s=200)
+plt.show()
+?出?果如?所示，???果和真??果都是一?的，即[1,1,0,0,1,0,0,1,1,0]。
+
+
+
+
+
+
+
+
+
+(By:Eastmount 2018-01-24 中午1?  http://blog.csdn.net/eastmount/ )
+--------------------- 
+版??明：本文?CSDN博主「Eastmount」的原?文章，遵循CC 4.0 by-sa版???，???附上原文出??接及本?明。
+原文?接：https://blog.csdn.net/Eastmount/article/details/79128235
